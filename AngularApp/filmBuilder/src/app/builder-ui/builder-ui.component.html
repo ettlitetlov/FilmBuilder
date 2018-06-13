@@ -1,0 +1,28 @@
+<div id="wrapper">
+  <h1>Compose film</h1>
+  <form (ngSubmit)="onSubmit()" #composeForm="ngForm">
+    
+    <div class="form-group">
+      <label for="type">Type</label>
+      <input type="text" class="form-control" id="type" required [(ngModel)]="model.type" name="type">
+    </div>
+
+    <div class="form-group">
+        <label for="language">Language</label>
+        <select class="form-control" id="language" required [(ngModel)]="model.language" name="lang">
+          <option *ngFor="let lang of languages " [value]="lang">{{lang}}</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        
+        <mat-checkbox [(ngModel)]="model.subtitle" name="subs"></mat-checkbox>
+        <label for="subtitle">Subtitles </label>
+    </div>
+    
+    <button type="submit" class="btn btn-success" [disabled]="!composeForm.form.valid">Compose</button>
+   
+  </form>
+
+</div>
+
