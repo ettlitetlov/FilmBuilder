@@ -9,6 +9,7 @@
   "author": "Axel Kollberg",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "get-video-duration": "^0.3.0"
   },
