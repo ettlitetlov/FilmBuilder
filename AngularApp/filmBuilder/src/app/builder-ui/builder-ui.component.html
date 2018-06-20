@@ -8,6 +8,25 @@
     </div>
 
     <div class="form-group">
+      <label for="name">Output file name</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="model.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="format">Format</label>
+      <select class="form-control" id="format" required [(ngModel)]="model.format" name="format">
+        <option *ngFor="let format of formats " [value]="format">{{format}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="resolution">Resolution</label>
+      <select class="form-control" id="res" required [(ngModel)]="model.res" name="res">
+        <option *ngFor="let res of resulotions " [value]="res">{{res*(16/9)}}x{{res}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
         <label for="language">Language</label>
         <select class="form-control" id="language" required [(ngModel)]="model.language" name="lang">
           <option *ngFor="let lang of languages " [value]="lang">{{lang}}</option>
@@ -20,9 +39,15 @@
         <label for="subtitle">Subtitles </label>
     </div>
     
-    <button type="submit" class="btn btn-success" [disabled]="!composeForm.form.valid">Compose</button>
+    <button type="submit" class="btn btn-success" [disabled]="!composeForm.form.valid || submitted == true">Compose</button>
+    
    
   </form>
+  <mat-progress-spinner *ngIf="submitted == true"  color="primary" diameter="30" mode="indeterminate" ></mat-progress-spinner>
+  <label for="message" id="message" >{{message}}</label>
+  
 
 </div>
+
+
 

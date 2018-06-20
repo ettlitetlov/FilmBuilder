@@ -1,5 +1,42 @@
-<body class="mat-body-1">
-    store-ui works!
+<div class="wrapper">
+    <h1>Add media entry</h1>
+    <form (ngSubmit)="onSubmit()" #composeForm="ngForm">
+      
+      <div class="form-group">
+        <label for="file">File</label>
+        <input type="file" class="form-control" id="file" required [(ngModel)]="model.file" name="file">
+      </div>
 
-</body>
+      <div class="form-group">
+        <label for="type">Type of media</label>
+        <select class="form-control" id="type" required [(ngModel)]="model.type" name="type" >
+          <option *ngFor="let type of types " [value]="type">{{type}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select class="form-control" id="category" required [(ngModel)]="model.category" name="cat">
+          <option *ngFor="let cat of categories " [value]="cat">{{cat}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required [(ngModel)]="model.name" name="name">
+      </div>
+
+      <div class="form-group" *ngIf="model.type === 'Subtitles' || model.type === 'Audio'">
+        <label for="language">Language</label>
+        <select class="form-control" id="lang" required [(ngModel)]="model.language" name="lang" >
+          <option *ngFor="let lang of languages " [value]="lang">{{lang}}</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-success" [disabled]="!composeForm.form.valid || submitted == true">Send</button>
+
+
+    </form>
+
+</div>
 
