@@ -3,8 +3,8 @@
     <form (ngSubmit)="onSubmit()" #composeForm="ngForm">
       
       <div class="form-group">
-        <label for="file">File</label>
-        <input type="file" class="form-control" id="file" required [(ngModel)]="model.file" name="file">
+        <label for="fileUrl">File</label>
+        <input type="file" class="form-control" id="fileUrl" required [(ngModel)]="model.fileUrl" name="file">
       </div>
 
       <div class="form-group">
@@ -17,7 +17,9 @@
       <div class="form-group">
         <label for="category">Category</label>
         <select class="form-control" id="category" required [(ngModel)]="model.category" name="cat">
-          <option *ngFor="let cat of categories " [value]="cat">{{cat}}</option>
+          <optgroup *ngFor="let sup of categories " label="{{sup[0]}}">
+              <option *ngFor="let cat of sup[1]" [value]="sup[0] + '/' + cat">{{cat}}</option>
+          </optgroup>
         </select>
       </div>
 

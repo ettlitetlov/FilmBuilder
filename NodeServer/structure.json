@@ -1,0 +1,61 @@
+{
+    "category": [
+        {"Intro":  {
+
+        }},
+         {"Category1": {
+            "leafCategory1": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory2": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory3": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory4": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            }
+        }},
+        {"Category2": {
+            "leafCategory1": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory2": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory3": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            },
+            "leafCategory4": {
+                "Video": [],
+                "Audio": [],
+                "Subtitles": []
+            }
+        }},
+        {"Category3": {
+
+        }},
+        
+        {"Category4": {
+
+        }},
+        {"Outro": {
+
+        }}
+    ]
+}

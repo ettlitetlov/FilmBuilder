@@ -2,6 +2,45 @@ var express = require('express');
 let app = express();
 const getDuration = require('get-video-duration');
 const bodyParser = require('body-parser');
+const multer = require('multer');
+const fs = require('fs');
+
+const storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+            console.log(req.body.type);
+            if(req.body.type === 'Video')
+                cb(null,'../Video/');
+            else if(req.body.type === 'Audio')
+                cb(null, '../Audio/');
+            else
+                cb(null, '../Subtitle/');
+    },
+    filename: function(req, file, cb) {
+        cb(null, req.body.name + '.' + file.originalname.split('.')[1]);
+    }
+});
+
+const fileFilter = function(req, file, cb) {
+    if(req.body.type === 'Video')
+        if(file.mimetype === 'video/mp4')
+            cb(null,true);
+        else {
+            req.fileValidationError ='Invalid filetype, only accepts .mp4 video files' ;
+            return cb(null, false, new Error('Invalid filetype, only accepts .mp4 video files'));
+        }
+    else if(req.body.type === 'Audio')
+        cb(null, true);
+    else{
+        if(file.mimetype === 'text/srt')
+            cb(null, true)
+        else {
+            req.fileValidationError ='Invalid filetype, only accepts .srt subtitle files' ;
+            return cb(null, false, new Error('Invalid filetype, only accepts .srt subtitle files'));
+        }
+    }
+};
+
+const upload = multer({storage: storage, fileFilter: fileFilter}).single('fileUrl');
 
 // Fetching a child process, to be later used for command line ffmpeg operations
 const { spawn } = require('child_process');
@@ -110,6 +149,34 @@ app.post('/compose/:type', jsonParser, function (req, res, next) {
         }
 
     });
+})
+
+app.post('/upload/', upload , function (req,res,next) {
+    if(req.fileValidationError)
+        return res.status(400).json({
+            'error': req.fileValidationError
+        });
+    else
+        res.status(200).json({
+            "message": "Upploaded successfully to " + req.file.path
+        });
+})
+
+app.get('/upload/', function (req, res, next) {
+    fs.readFile('./structure.json', (err, data) => {
+        if(err){
+            return res.status(500).json({
+                error: err
+            });
+        }
+        else{
+            var jsonData = JSON.parse(data);
+        
+            console.log(jsonData);
+            res.status(200).send(jsonData);
+        }
+    })
+    
 })
 
 app.listen(8000, function() {
