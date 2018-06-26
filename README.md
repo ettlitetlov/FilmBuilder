@@ -11,7 +11,7 @@
 
 ## Instructions for installing FFmpeg on Windows
 
-1. Download FFmpeg apropriate install package from [Here](https://www.ffmpeg.org/download.html).
+1. Download FFmpeg appropriate install package from [Here](https://www.ffmpeg.org/download.html).
 
 2. Extract content and place it in appropriate folder e.g: C:\ffmpeg\
 
