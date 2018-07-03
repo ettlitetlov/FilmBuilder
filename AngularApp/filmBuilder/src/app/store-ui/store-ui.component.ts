@@ -1,6 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { Entry } from "../entry";
 import { StoreService } from "../store.service";
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-store-ui',
@@ -10,8 +11,9 @@ import { StoreService } from "../store.service";
 export class StoreUIComponent implements OnInit {
 
   constructor(private storeService: StoreService) { }
-
-  model = new Entry('','','','')
+  selectedFile: File = null;
+  public successMessage: string = null;
+  model = new Entry('','','','') 
   public categories: any[] = [];
 
   ngOnInit() { 
@@ -33,12 +35,32 @@ export class StoreUIComponent implements OnInit {
 
   }
 
+  onFileSelected(event) {
+    this.selectedFile = event.target.files[0];
+  }
+
   languages = ['Swedish', 'English', 'Arabic', 'Spanish', 'French', 'German'];
 
   types = ['Video', 'Audio', 'Subtitles'];
 
-  onSubmit(){
-    console.log(this.model);
+  onSubmit(form: NgForm){
+    // Construct a formdata for file upload
+    let formData = new FormData();
+
+    formData.append("type", this.model.type);
+    formData.append("name", this.model.name);
+    formData.append("category", this.model.category);
+    if(this.model.language)
+      formData.append("language", this.model.language);
+
+    formData.append("fileUrl", this.selectedFile, this.selectedFile.name);
+
+    this.storeService.uploadFormData(formData).subscribe(data => {
+        this.successMessage = data.body.message;
+        //setTimeout(function(){ form.resetForm(); }, 500);
+    }, error => {
+      this.successMessage = error.error.error;
+    });
   }
 
 

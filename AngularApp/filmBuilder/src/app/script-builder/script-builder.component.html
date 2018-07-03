@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <h1>Build a new script</h1>
+  <mat-list>
+      <h2 mat-subheader *ngFor="let cat of categories" >
+        {{cat[0]}} 
+        <mat-selection-list role="list" *ngFor="let sub of cat[1]; let i = index" >
+            <h5 >
+            {{sub}}
+            
+          </h5>
+          <mat-divider></mat-divider>
+          <mat-list-option checkboxPosition="before" color="primary" role="listitem" *ngFor="let leaf of cat[i+2]">
+            <p (click)="printInfo(leaf)">{{leaf.name}}</p>
+            <mat-divider md-inset></mat-divider>
+          </mat-list-option>
+
+        </mat-selection-list>
+      </h2>
+
+  </mat-list>
+</div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Film } from "../film";
 import { FilmComposerService } from "../film-composer.service";
 
@@ -7,9 +7,18 @@ import { FilmComposerService } from "../film-composer.service";
   templateUrl: './builder-ui.component.html',
   styleUrls: ['./builder-ui.component.css']
 })
-export class BuilderUIComponent {
+export class BuilderUIComponent implements OnInit {
 
   constructor(private filmComposer: FilmComposerService) { }
+  private submitted:boolean;
+  private types:string[];
+
+  ngOnInit(){
+    this.filmComposer.getTypes().subscribe(data => {
+      this.types = data;
+    })
+    this.submitted = false;
+  }
 
   // Available languages
   languages = ['Swedish', 'English', 'Arabic', 'Spanish', 'French', 'German'];
@@ -22,11 +31,10 @@ export class BuilderUIComponent {
 
   model = new Film('', '', '.mp4',1080,'', false);
 
-  submitted = false;
 
   message:string = "";
 
-  // Send request to API, will not be sent multiple times if pressed.
+  // Send request to API, will not be sent multiple times if button pressed multiple times.
   onSubmit(){
     if(!this.submitted){
       if(this.model.res == 'GameBoy')

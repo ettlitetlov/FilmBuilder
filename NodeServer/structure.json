@@ -1,61 +1,87 @@
 {
-    "category": [
-        {"Intro":  {
-
-        }},
-         {"Category1": {
-            "leafCategory1": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory2": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory3": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory4": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            }
-        }},
-        {"Category2": {
-            "leafCategory1": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory2": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory3": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            },
-            "leafCategory4": {
-                "Video": [],
-                "Audio": [],
-                "Subtitles": []
-            }
-        }},
-        {"Category3": {
-
-        }},
-        
-        {"Category4": {
-
-        }},
-        {"Outro": {
-
-        }}
-    ]
+	"category": [
+		{
+			"Transition": {
+				"Intro": {
+					"Video": [
+						{
+							"name": "intro1",
+							"dir": "..\\Video\\intro1.MP4",
+							"created": "2018-7-1 10:22:29",
+							"duration": 1.08,
+							"type": "Video"
+						},
+						{
+							"name": "qwe",
+							"dir": "..\\Video\\qwe.MP4",
+							"created": "2018-7-1 10:32:41",
+							"duration": 7.56,
+							"type": "Video"
+						}
+					],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"Outro": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				}
+			}
+		},
+		{
+			"Category1": {
+				"leafCategory1": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory2": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory3": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory4": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				}
+			}
+		},
+		{
+			"Category2": {
+				"leafCategory1": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory2": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory3": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"leafCategory4": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				}
+			}
+		},
+		{
+			"Category3": {}
+		},
+		{
+			"Category4": {}
+		}
+	]
 }

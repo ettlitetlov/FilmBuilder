@@ -1,10 +1,10 @@
 <div class="wrapper">
     <h1>Add media entry</h1>
-    <form (ngSubmit)="onSubmit()" #composeForm="ngForm">
+    <form (ngSubmit)="onSubmit(storeForm)" #storeForm="ngForm">
       
       <div class="form-group">
         <label for="fileUrl">File</label>
-        <input type="file" class="form-control" id="fileUrl" required [(ngModel)]="model.fileUrl" name="file">
+        <input type="file" class="form-control" id="fileUrl" (change)="onFileSelected($event)" required [(ngModel)]="model.fileUrl" name="file">
       </div>
 
       <div class="form-group">
@@ -35,10 +35,12 @@
         </select>
       </div>
 
-      <button type="submit" class="btn btn-success" [disabled]="!composeForm.form.valid || submitted == true">Send</button>
+      <button type="submit" class="btn btn-success" [disabled]="!storeForm.form.valid || submitted == true">Send</button>
 
 
     </form>
+
+    <div *ngIf="successMessage != null">{{successMessage}}</div>
 
 </div>
 

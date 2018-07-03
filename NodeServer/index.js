@@ -7,7 +7,6 @@ const fs = require('fs');
 
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
-            console.log(req.body.type);
             if(req.body.type === 'Video')
                 cb(null,'../Video/');
             else if(req.body.type === 'Audio')
@@ -20,6 +19,8 @@ const storage = multer.diskStorage({
     }
 });
 
+const listOfCategories = ["Transition","Category1","Category2","Category3","Category4"]
+
 const fileFilter = function(req, file, cb) {
     if(req.body.type === 'Video')
         if(file.mimetype === 'video/mp4')
@@ -28,8 +29,14 @@ const fileFilter = function(req, file, cb) {
             req.fileValidationError ='Invalid filetype, only accepts .mp4 video files' ;
             return cb(null, false, new Error('Invalid filetype, only accepts .mp4 video files'));
         }
-    else if(req.body.type === 'Audio')
-        cb(null, true);
+    else if(req.body.type === 'Audio'){
+        if(file.mimetype === 'Audio/mp3')
+            cb(null,true);
+        else {
+            req.fileValidationError ='Invalid filetype, only accepts .mp3 audio files' ;
+            return cb(null, false, new Error('Invalid filetype, only accepts .mp3 audio files'));
+        }
+    }
     else{
         if(file.mimetype === 'text/srt')
             cb(null, true)
@@ -75,10 +82,15 @@ const recipes = {
         video: ['../Video/test.mp4','../Video/skräckis.mp4'],
         audio: [],
         subs: [],
+    },
+    test: {
+        video: ['C:/Users/bollb/Desktop/MVI_0326.mp4','C:/Users/bollb/Desktop/MVI_0328.mp4','C:/Users/bollb/Desktop/MVI_0329.mp4','C:/Users/bollb/Desktop/MVI_0330.mp4','C:/Users/bollb/Desktop/MVI_0331.mp4','C:/Users/bollb/Desktop/MVI_0344.mp4','C:/Users/bollb/Desktop/MVI_0345.mp4','C:/Users/bollb/Desktop/MVI_0346.mp4'],
+        audio: [],
+        subs: [],
     }
 }
 
-//  Post method for creating a movie
+//  POST-method for creating a movie
 app.post('/compose/:type', jsonParser, function (req, res, next) {
 
     listOfCommands = [];
@@ -151,17 +163,42 @@ app.post('/compose/:type', jsonParser, function (req, res, next) {
     });
 })
 
+// POST-method for uploading entry into database
 app.post('/upload/', upload , function (req,res,next) {
-    if(req.fileValidationError)
+    if(req.fileValidationError){
+        console.log("FAILED: POST-request  at /upload/ : " + new Date().toLocaleString());
         return res.status(400).json({
             'error': req.fileValidationError
         });
-    else
+    }
+    else{
+        fs.readFile('structure.json', 'utf8', (err,data) => {
+            if(err) throw err;
+
+            // Handle data
+            let database = JSON.parse(data);
+            let pathArr = req.body.category.split('/');
+            getDuration(req.file.path).then((duration) => {
+                database.category[listOfCategories.indexOf(pathArr[0])][pathArr[0]][pathArr[1]][req.body.type]
+                .push({ 
+                    "name" : req.body.name,
+                    "dir" : req.file.path,
+                    "created" : new Date().toLocaleString(),
+                    "duration" : duration,
+                    "type": req.body.type});
+                fs.writeFile('structure.json', JSON.stringify(database, null, '\t'), (err) => {
+                    if(err) throw err;
+                });      
+            })
+        })
+        console.log("SUCCESS: POST-request  at /upload/ : " + new Date().toLocaleString());
         res.status(200).json({
             "message": "Upploaded successfully to " + req.file.path
         });
+    }
 })
 
+// GET for getting existing entries in database
 app.get('/upload/', function (req, res, next) {
     fs.readFile('./structure.json', (err, data) => {
         if(err){
@@ -170,13 +207,30 @@ app.get('/upload/', function (req, res, next) {
             });
         }
         else{
+            console.log('GET-request at /upload/ : ' +  new Date().toLocaleString());
             var jsonData = JSON.parse(data);
-        
-            console.log(jsonData);
             res.status(200).send(jsonData);
         }
     })
     
+})
+
+// Fetch types of recipes available in the database
+app.get('/compose/types', (req,res,next) => {
+    
+    fs.readFile('scripts.json', 'utf8', (err, data) => {
+        if(err){
+            console.log("FAILURE: GET-request at /compose/types : " + new Date().toLocaleString());
+            res.status(500).json({
+                error: err
+            })
+            throw err;
+        }
+        else{
+            console.log("SUCCESS: GET-request at /compose/types : " + new Date().toLocaleString());
+            res.status(200).send(Object.keys(JSON.parse(data)));
+        }
+    })
 })
 
 app.listen(8000, function() {

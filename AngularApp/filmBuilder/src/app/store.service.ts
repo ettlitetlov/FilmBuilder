@@ -8,6 +8,10 @@ const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
 };
 
+const formOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'multipart/form-data' })
+};
+
 
 @Injectable({
   providedIn: 'root'
@@ -16,14 +20,13 @@ export class StoreService {
 
   constructor(private http: HttpClient) { }
 
-  private storeUrl = "http://localhost:8000/upload";
+  private storeUrl = "http://localhost:8000/upload/";
 
   fetchCategories(){
     return this.http.get(this.storeUrl);
   }
   
-  // TODO: Implement this ->
-  uploadFormData(formData){
-    return this.http.post(this.storeUrl, formData);
+  uploadFormData(formData: FormData): Observable<any>{
+    return this.http.post(this.storeUrl, formData, { observe: 'response' });
   }
 }

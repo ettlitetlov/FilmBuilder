@@ -20,10 +20,13 @@ export class FilmComposerService {
   private compUrl = "http://localhost:8000/compose";
 
   queryComposition(reqBody:Film) : Observable<any> { 
-  
     const type = reqBody.type;
     return this.http.post(this.compUrl + `/${type}`, reqBody, httpOptions );
 
+  }
+
+  getTypes() : Observable<any>{
+    return this.http.get(this.compUrl + '/types', httpOptions);
   }
 
   private log(message: string) {

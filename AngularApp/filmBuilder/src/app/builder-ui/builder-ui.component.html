@@ -4,7 +4,9 @@
     
     <div class="form-group">
       <label for="type">Type</label>
-      <input type="text" class="form-control" id="type" required [(ngModel)]="model.type" name="type">
+      <select class="form-control" id="type" required [(ngModel)]="model.type" name="type">
+        <option *ngFor="let type of types" [value]="type">{{type}}</option>
+      </select>
     </div>
 
     <div class="form-group">

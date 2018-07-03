@@ -1,0 +1,17 @@
+{
+    "hej": {
+        "video": ["../Video/skräckis.mp4","../Video/test.mp4"],
+        "audio": ["../Audio/PimpMyRide.mp3"],
+        "subs": []
+    },
+    "hall": {
+        "video": ["../Video/test.mp4","../Video/skräckis.mp4"],
+        "audio": [],
+        "subs": []
+    },
+    "test": {
+        "video": ["C:/Users/bollb/Desktop/MVI_0326.mp4","C:/Users/bollb/Desktop/MVI_0328.mp4","C:/Users/bollb/Desktop/MVI_0329.mp4","C:/Users/bollb/Desktop/MVI_0330.mp4","C:/Users/bollb/Desktop/MVI_0331.mp4","C:/Users/bollb/Desktop/MVI_0344.mp4","C:/Users/bollb/Desktop/MVI_0345.mp4","C:/Users/bollb/Desktop/MVI_0346.mp4"],
+        "audio": [],
+        "subs": []
+    }
+}
