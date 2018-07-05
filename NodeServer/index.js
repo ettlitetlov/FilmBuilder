@@ -71,25 +71,6 @@ app.use(function(req, res, next) {
 // Using body parser
 var jsonParser = bodyParser.json()
 
-const recipes = {
-    hej: {
-        video: ['../Video/skräckis.mp4','../Video/test.mp4'],
-        audio: ['../Audio/PimpMyRide.mp3'],
-        subs: []
-    },
-
-    hall: {
-        video: ['../Video/test.mp4','../Video/skräckis.mp4'],
-        audio: [],
-        subs: [],
-    },
-    test: {
-        video: ['C:/Users/bollb/Desktop/MVI_0326.mp4','C:/Users/bollb/Desktop/MVI_0328.mp4','C:/Users/bollb/Desktop/MVI_0329.mp4','C:/Users/bollb/Desktop/MVI_0330.mp4','C:/Users/bollb/Desktop/MVI_0331.mp4','C:/Users/bollb/Desktop/MVI_0344.mp4','C:/Users/bollb/Desktop/MVI_0345.mp4','C:/Users/bollb/Desktop/MVI_0346.mp4'],
-        audio: [],
-        subs: [],
-    }
-}
-
 //  POST-method for creating a movie
 app.post('/compose/:type', jsonParser, function (req, res, next) {
 
@@ -196,6 +177,40 @@ app.post('/upload/', upload , function (req,res,next) {
             "message": "Upploaded successfully to " + req.file.path
         });
     }
+})
+
+// POST-method for uploading new script
+app.post('/script/:name', jsonParser, (req,res,next) => {
+    console.log("POST-request at /script/ " + req.body);
+    const name = req.params.name;
+
+    fs.readFile('./scripts.json', (err, data) => {
+        if(err){
+            return res.status(500).json({
+                error: err
+            });
+        }
+        else{
+            //console.log('GET-request at /upload/ : ' +  new Date().toLocaleString());
+            var jsonData = JSON.parse(data);
+            jsonData[name] = {
+                    video : req.body,
+                    audio : [],
+                    subs : []
+            };
+            
+            fs.writeFile('./scripts.json', JSON.stringify(jsonData, null, '\t'), (err) => {
+                if(err) throw err;
+
+                res.status(200).json({
+                    message: "Script stored"
+                });
+            })
+
+        }
+    })
+
+
 })
 
 // GET for getting existing entries in database

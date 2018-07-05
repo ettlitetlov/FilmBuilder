@@ -36,6 +36,12 @@ mat-divider{
     background-color: rgb(220,220,220);
     width: 100%;
 }
+
 div{
     text-transform: capitalize;
+}
+
+#statusMessage{
+    margin-top: 5%;
+    color: green;
 }

@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { StoreService } from "../store.service";
-import { MatListModule } from "@angular/material";
-
+import { Script } from "../script";
 
 @Component({
   selector: 'app-script-builder',
@@ -13,9 +12,21 @@ export class ScriptBuilderComponent implements OnInit {
   constructor(private storeService:StoreService) { }
 
   // Arrays to be used in *ngFor to display data
-  public categories: any[] = [];
+  public categories: any[];
+  public script: string[];
+  public scriptName: string[];
+  public submitted:boolean = false;
+  public responseMessage:string;
+
+  model = new Script('',[]);
 
   ngOnInit() {
+
+    // Initialize the local variables to empy arrays
+    this.script = [];
+    this.scriptName = [];
+    this.categories  = [];
+
     // Fetch categories from database to populate selection list
     this.storeService.fetchCategories().subscribe(data => {
       //Fetch first key-word in the object, this is a formality to avoid errors, could use just category, since its a key in the data-object.
@@ -46,6 +57,28 @@ export class ScriptBuilderComponent implements OnInit {
         i++;
       });
     });
+
+
+  }
+
+  modifyScript(dbEntry: any){
+    if(this.script.indexOf(dbEntry.dir) == -1){
+      this.script.push(dbEntry.dir);
+      this.scriptName.push(dbEntry.name);
+    }
+    else{
+      this.script.splice(this.script.indexOf(dbEntry.dir),1);
+      this.scriptName.splice(this.scriptName.indexOf(dbEntry.name),1);
+    }
+
+    console.log(this.script);
+  }
+
+  submitScript(){
+    console.log("submitting script");
+    this.storeService.postScript(this.script, this.model.name).subscribe(response => {
+      this.responseMessage = response[Object.keys(response)[0]];
+    });
   }
 
   printInfo(dbEntry: any){
@@ -53,3 +86,4 @@ export class ScriptBuilderComponent implements OnInit {
   }
 
 }
+

@@ -3,22 +3,7 @@
 		{
 			"Transition": {
 				"Intro": {
-					"Video": [
-						{
-							"name": "intro1",
-							"dir": "..\\Video\\intro1.MP4",
-							"created": "2018-7-1 10:22:29",
-							"duration": 1.08,
-							"type": "Video"
-						},
-						{
-							"name": "qwe",
-							"dir": "..\\Video\\qwe.MP4",
-							"created": "2018-7-1 10:32:41",
-							"duration": 7.56,
-							"type": "Video"
-						}
-					],
+					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
@@ -47,7 +32,14 @@
 					"Subtitles": []
 				},
 				"leafCategory4": {
-					"Video": [],
+					"Video": [
+						{ 
+                    "name" : "hej",
+                    "dir" : "../hej",
+                    "created" : 2,
+                    "duration" : 10,
+					"type": "video"}
+				],
 					"Audio": [],
 					"Subtitles": []
 				}
