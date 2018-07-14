@@ -11,7 +11,7 @@ h5 {
     text-align: right;
 }
 .wrapper {
-    max-width: 200px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,6 +26,12 @@ div.mat-list-item-content {
     padding-left: 0px !important;
 }
 
+input{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 mat-list-option{
     height: 1.3% !important;
     width: 100% !important;
@@ -35,6 +41,9 @@ mat-list-option{
 mat-divider{
     background-color: rgb(220,220,220);
     width: 100%;
+}
+ol{
+    padding: 0;
 }
 
 div{

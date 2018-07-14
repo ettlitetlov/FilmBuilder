@@ -1,18 +1,9 @@
 {
-	"hej": {
+	"examplescript": {
 		"video": [
-			"../Video/skräckis.mp4",
-			"../Video/test.mp4"
-		],
-		"audio": [
-			"../Audio/PimpMyRide.mp3"
-		],
-		"subs": []
-	},
-	"hall": {
-		"video": [
-			"../Video/test.mp4",
-			"../Video/skräckis.mp4"
+			"..\\Video\\intro1.mp4",
+			"..\\Video\\example1.mp4",
+			"..\\Video\\outro1.MP4"
 		],
 		"audio": [],
 		"subs": []

@@ -80,68 +80,79 @@ app.post('/compose/:type', jsonParser, function (req, res, next) {
     
     const body = req.body;
 
-    const recipe = recipes[type];
-
-    // Checking if failed;
-    if(recipe == undefined){
-         return res.status(404).json({
-            message: "Recipe for \"" + type + "\" not found" 
-        });
-    }
-
-    if(body.res)
-        resolution = body.res;
-
-    if(body.format)
-        fileExtension = body.format;
-
-    if(body.name)
-        fileName = body.name;
-    else
-        fileName = "exempel";
-
-    const vLength = recipe.video.length;
-    const aLength = recipe.audio.length;
-    
-    // Combining components for building video command list
-    populateClipListing(recipe.video);
-
-    populateSoundListing(recipe.audio);
-    
-    concatinationFilter(vLength, aLength);
-
-    addOutputFile();
-
-    console.log(listOfCommands);
-    // Spawning the actual command line call
-    const filmData = spawn('ffmpeg', listOfCommands);
-
-        // Response from command line, will probably be empty
-    filmData.stdout.on('data', (data) => {
-        console.log(data.toString());
-    });
-
-    // Error-response from command line, using FFmpeg, the output will be shown here
-    filmData.stderr.on('data', (data) => {
-        console.log(data.toString());
-    });
-
-    // Response message when child process is finished
-    filmData.on('exit', function (code) {
-        if(code === 0){
-            console.log(`"${fileName}_${resolution*(16/9)}x${resolution}${fileExtension}" created successfully`);
-            res.status(201).json({
-                message: `${fileName}_${resolution*(16/9)}x${resolution}${fileExtension} created successfully`
+    fs.readFile('scripts.json', 'utf8', (err, data) => {
+        if(err){
+            return res.status(500).json({
+                error: err
             })
+            throw err;
         }
         else{
-            console.log('error creating the file');
-            res.status(500).json({
-                message: 'error creating the file'
-            })
-        }
 
-    });
+            const recipe = JSON.parse(data)[type];
+
+            // Checking if failed;
+            if(recipe == undefined){
+                    return res.status(404).json({
+                    message: "Recipe for \"" + type + "\" not found" 
+                });
+            }
+
+            if(body.res)
+                resolution = body.res;
+
+            if(body.format)
+                fileExtension = body.format;
+
+            if(body.name)
+                fileName = body.name;
+            else
+                fileName = "exempel";
+
+            const vLength = recipe.video.length;
+            const aLength = recipe.audio.length;
+            
+            // Combining components for building video command list
+            populateClipListing(recipe.video);
+
+            populateSoundListing(recipe.audio);
+            
+            concatinationFilter(vLength, aLength);
+
+            addOutputFile();
+
+            console.log(listOfCommands);
+            // Spawning the actual command line call
+            const filmData = spawn('ffmpeg', listOfCommands);
+
+                // Response from command line, will probably be empty
+            filmData.stdout.on('data', (data) => {
+                console.log(data.toString());
+            });
+
+            // Error-response from command line, using FFmpeg, the output will be shown here
+            filmData.stderr.on('data', (data) => {
+                console.log(data.toString());
+            });
+
+            // Response message when child process is finished
+            filmData.on('exit', function (code) {
+                if(code === 0){
+                    console.log(`"${fileName}_${resolution*(16/9)}x${resolution}${fileExtension}" created successfully`);
+                    res.status(201).json({
+                        message: `${fileName}_${resolution*(16/9)}x${resolution}${fileExtension} created successfully`
+                    })
+                }
+                else{
+                    console.log('error creating the file');
+                    res.status(500).json({
+                        message: 'error creating the file'
+                    })
+                }
+
+            });
+        }
+    })
 })
 
 // POST-method for uploading entry into database
@@ -159,6 +170,7 @@ app.post('/upload/', upload , function (req,res,next) {
             // Handle data
             let database = JSON.parse(data);
             let pathArr = req.body.category.split('/');
+            console.log(req.file.path + pathArr);
             getDuration(req.file.path).then((duration) => {
                 database.category[listOfCategories.indexOf(pathArr[0])][pathArr[0]][pathArr[1]][req.body.type]
                 .push({ 

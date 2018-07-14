@@ -3,7 +3,7 @@
   <form (ngSubmit)="onSubmit()" #composeForm="ngForm">
     
     <div class="form-group">
-      <label for="type">Type</label>
+      <label for="type">Choose script</label>
       <select class="form-control" id="type" required [(ngModel)]="model.type" name="type">
         <option *ngFor="let type of types" [value]="type">{{type}}</option>
       </select>
