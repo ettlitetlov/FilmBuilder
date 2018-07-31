@@ -10,6 +10,13 @@
 							"created": "2018-7-5 16:35:58",
 							"duration": 5.96,
 							"type": "Video"
+						},
+						{
+							"name": "Intro",
+							"dir": "..\\Video\\Intro.mp4",
+							"created": "2018-7-25 11:32:51",
+							"duration": 12.92,
+							"type": "Video"
 						}
 					],
 					"Audio": [],
@@ -22,6 +29,26 @@
 							"dir": "..\\Video\\outro1.MP4",
 							"created": "2018-7-5 16:36:56",
 							"duration": 1.08,
+							"type": "Video"
+						}
+					],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"Transition": {
+					"Video": [
+						{
+							"name": "TransitionWhat",
+							"dir": "..\\Video\\TransitionWhat.mp4",
+							"created": "2018-7-25 11:35:10",
+							"duration": 1.44,
+							"type": "Video"
+						},
+						{
+							"name": "TransitionHowNot",
+							"dir": "..\\Video\\TransitionHowNot.mp4",
+							"created": "2018-7-25 11:35:25",
+							"duration": 1.96,
 							"type": "Video"
 						}
 					],
@@ -46,14 +73,52 @@
 					"Subtitles": []
 				},
 				"leafCategory2": {
-					"Video": [],
-					"Audio": [],
-					"Subtitles": []
+					"Video": [
+						{
+							"name": "PillCan",
+							"dir": "..\\Video\\PillCan.mp4",
+							"created": "2018-7-25 11:44:26",
+							"duration": 8.48,
+							"type": "Video"
+						}
+					],
+					"Audio": [
+						{
+							"name": "PillCan__English",
+							"dir": "..\\Audio\\PillCan.m4a",
+							"created": "2018-7-25 12:10:58",
+							"duration": 5.504,
+							"type": "Audio"
+						}
+					],
+					"Subtitles": [
+						{
+							"name": "PillCan__English",
+							"dir": "..\\Subtitle\\PillCan.srt",
+							"created": "2018-7-25 14:48:25",
+							"type": "Subtitles"
+						}
+					]
 				},
 				"leafCategory3": {
-					"Video": [],
+					"Video": [
+						{
+							"name": "Not Example",
+							"dir": "..\\Video\\Not Example.mp4",
+							"created": "2018-7-25 11:45:26",
+							"duration": 5.04,
+							"type": "Video"
+						}
+					],
 					"Audio": [],
-					"Subtitles": []
+					"Subtitles": [
+						{
+							"name": "sdfsdfsd__English",
+							"dir": "..//Subtitle//sdfsdfsd.srt",
+							"created": "2018-7-25 16:58:53",
+							"type": "Subtitles"
+						}
+					]
 				},
 				"leafCategory4": {
 					"Video": [],
@@ -64,22 +129,22 @@
 		},
 		{
 			"Category2": {
-				"leafCategory1": {
+				"leafCategory5": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory2": {
+				"leafCategory6": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory3": {
+				"leafCategory7": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory4": {
+				"leafCategory8": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []

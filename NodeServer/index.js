@@ -4,6 +4,8 @@ const getDuration = require('get-video-duration');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const fs = require('fs');
+const XLSX = require('xlsx');
+var workbook = XLSX.readFile('OTC-Database.xlsx');
 
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
@@ -30,15 +32,16 @@ const fileFilter = function(req, file, cb) {
             return cb(null, false, new Error('Invalid filetype, only accepts .mp4 video files'));
         }
     else if(req.body.type === 'Audio'){
-        if(file.mimetype === 'Audio/mp3')
+        console.log(file.mimetype);
+        if(file.mimetype === 'audio/x-m4a')
             cb(null,true);
         else {
-            req.fileValidationError ='Invalid filetype, only accepts .mp3 audio files' ;
-            return cb(null, false, new Error('Invalid filetype, only accepts .mp3 audio files'));
+            req.fileValidationError ='Invalid filetype, only accepts .mp4 audio files' ;
+            return cb(null, false, new Error('Invalid filetype, only accepts .mp4 audio files'));
         }
     }
     else{
-        if(file.mimetype === 'text/srt')
+        if(file.mimetype === 'application/octet-stream')
             cb(null, true)
         else {
             req.fileValidationError ='Invalid filetype, only accepts .srt subtitle files' ;
@@ -76,7 +79,7 @@ app.post('/compose/:type', jsonParser, function (req, res, next) {
 
     listOfCommands = [];
 
-    const type = req.params.type.toLowerCase();
+    const type = req.params.type;
     
     const body = req.body;
 
@@ -116,8 +119,10 @@ app.post('/compose/:type', jsonParser, function (req, res, next) {
             populateClipListing(recipe.video);
 
             populateSoundListing(recipe.audio);
+
+            populateSubListing(recipe.subs);
             
-            concatinationFilter(vLength, aLength);
+            concatinationFilter(vLength, aLength, recipe.audio, recipe.subs);
 
             addOutputFile();
 
@@ -171,18 +176,38 @@ app.post('/upload/', upload , function (req,res,next) {
             let database = JSON.parse(data);
             let pathArr = req.body.category.split('/');
             console.log(req.file.path + pathArr);
-            getDuration(req.file.path).then((duration) => {
+            var langName;
+            if(req.body.type === 'Audio' || req.body.type === 'Subtitles')
+                langName = req.body.name + "__" + req.body.language;
+            else
+                langName = req.body.name;
+            if(req.body.type != 'Subtitles'){
+                getDuration(req.file.path).then((duration) => {
+                    database.category[listOfCategories.indexOf(pathArr[0])][pathArr[0]][pathArr[1]][req.body.type]
+                    .push({ 
+                        "name" : langName,
+                        "dir" : req.file.path,
+                        "created" : new Date().toLocaleString(),
+                        "duration" : duration,
+                        "type": req.body.type});
+                    fs.writeFile('structure.json', JSON.stringify(database, null, '\t'), (err) => {
+                        if(err) throw err;
+                    });      
+                });
+            }
+            else{
                 database.category[listOfCategories.indexOf(pathArr[0])][pathArr[0]][pathArr[1]][req.body.type]
-                .push({ 
-                    "name" : req.body.name,
-                    "dir" : req.file.path,
-                    "created" : new Date().toLocaleString(),
-                    "duration" : duration,
-                    "type": req.body.type});
-                fs.writeFile('structure.json', JSON.stringify(database, null, '\t'), (err) => {
-                    if(err) throw err;
-                });      
-            })
+                    .push({ 
+                        "name" : langName,
+                        // Need the use of a regular extression to replaceall backslashes to forward.
+                        "dir" : req.file.path.replace(/\\/g, '//'),
+                        "created" : new Date().toLocaleString(),
+                        "type": req.body.type});
+                    fs.writeFile('structure.json', JSON.stringify(database, null, '\t'), (err) => {
+                        if(err) throw err;
+                    });    
+            }
+
         })
         console.log("SUCCESS: POST-request  at /upload/ : " + new Date().toLocaleString());
         res.status(200).json({
@@ -260,9 +285,29 @@ app.get('/compose/types', (req,res,next) => {
     })
 })
 
+// Experimenting with excel data
+/*
+    var first_sheet_name = workbook.SheetNames[0];
+    var second_sheet_name = workbook.SheetNames[1];
+    var third_sheet_name = workbook.SheetNames[2];
+
+    var worksheet = workbook.Sheets[third_sheet_name];
+    var options = workbook.Sheets[second_sheet_name];
+
+// Write drop-down options to csv fi
+
+//console.log(XLSX.utils.sheet_to_json(worksheet));
+
+fs.writeFile('./headers.json', JSON.stringify(XLSX.utils.sheet_to_json(worksheet, {raw:true, range:'A1-BM7', header:'A'}), null, '\t'), (err) => {
+    if(err) throw err;
+})
+
+*/
+
 app.listen(8000, function() {
     console.log('App listening on port 8000!');
 })
+
 
 // Populate the command line arg-list with clips to be concatinated
 function populateClipListing(URIs) {
@@ -277,13 +322,24 @@ function populateClipListing(URIs) {
 function populateSoundListing(URIs){
     URIs.forEach(element => {
         listOfCommands.push('-i');
-        listOfCommands.push(element);
+        listOfCommands.push(Object.values(element)[0]);
     });
 }
 
+// Populate the command line arg-list with sounds to be added to clips
+function populateSubListing(URIs){
+    URIs.forEach(element => {
+        console.log(Object.values(element)[0]);
+        listOfCommands.push('-i');
+        listOfCommands.push(Object.values(element)[0]);
+    });
+}
+
+
+
 // Adding the filter_complex to command line args for stitching together video+sound
 // Stitches together correctly if vLength = aLength, also changes resolution if wanted
-function concatinationFilter(vLength, aLength){
+function concatinationFilter(vLength, aLength, AudioObj, SubtObj){
 
     // Set and enter the filter
     listOfCommands.push("-filter_complex");
@@ -291,23 +347,36 @@ function concatinationFilter(vLength, aLength){
 
     // Check if change of resolution is of interest.
     if(resolution > 0){
+        var counter = 0;
+        //console.log(Object.keys(Object.values(SubtObj)[counter]));
+
         for(var i = 0; i < vLength; i++){
-            tempString = tempString + `[${i}:v]scale=-1:${resolution},setsar=sar=1[vid${i}];`;
+            if(Object.values(SubtObj)[counter] && parseInt(Object.keys(Object.values(SubtObj)[counter])) === i){
+                tempString = tempString + `[${i}:v]scale=-1:${resolution},setsar=sar=1,subtitles=${Object.values(Object.values(SubtObj)[counter])}[vid${i}];`;
+                counter++;
+            }
+            else    
+                tempString = tempString + `[${i}:v]scale=-1:${resolution},setsar=sar=1[vid${i}];`;
         }
     }
 
 
     for(var i = 0; i < vLength; i++){
+        var counter = 0;
         // Only if resolution is changed
         if(resolution > 0){
-            if(i < aLength)
-                tempString = tempString + `[vid${i}][${i+vLength}:a:0]`;
+            if(Object.values(AudioObj)[counter] && parseInt(Object.keys(Object.values(AudioObj)[counter])) === i){
+                tempString = tempString + `[vid${i}][${counter+vLength}:a:0]`;
+                counter++; 
+            }
             else
                 tempString = tempString + `[vid${i}][${i}:a:0]`;
         }
         else{
-            if(i < aLength)
-                tempString = tempString + `[${i}:v:0][${i+vLength}:a:0]`;
+            if(Object.values(AudioObj)[counter] && parseInt(Object.keys(Object.values(AudioObj)[counter])) === i){
+                tempString = tempString + `[${i}:v:0][${counter+vLength}:a:0]`;
+                counter++;
+            }
             else
                 tempString = tempString + `[${i}:v:0][${i}:a:0]`;
         }

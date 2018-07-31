@@ -15,6 +15,11 @@ export class StoreUIComponent implements OnInit {
   public successMessage: string = null;
   model = new Entry('','','','') 
   public categories: any[] = [];
+  public categories2: any[] = [];
+  public keys: any[] = [];
+  public length: any[] = [];
+  public selectedCategory: string[];
+  startvalue: boolean = false;
 
   ngOnInit() { 
 
@@ -25,18 +30,46 @@ export class StoreUIComponent implements OnInit {
 
     var i = 0;
     data[category].forEach(element => {
-      this.categories.push(Object.keys(element));
-      Object.values(element).forEach(subElement => {
-        this.categories[i].push(Object.keys(subElement));
-      })
-      i++;
-    });
-   })
+      this.categories.push(Object.keys(element));               //<- Original
 
+      Object.values(element).forEach(subElement => {
+
+        Object.keys(subElement).forEach(test => {
+          var obj = {};
+          var name = test;
+          var tmpArr = new Array();
+          Object.values(subElement[test]).forEach(subSubElement =>{
+            Object.values(subSubElement).forEach(superSubElement => {
+                if(superSubElement.type === "Video"){
+                  tmpArr.push(superSubElement.name);
+                }
+            })
+          })
+
+          obj[name] = tmpArr;
+          this.categories2.push(obj); 
+        });
+        this.categories[i].push(Object.keys(subElement));       //<- Original
+        i++;
+      })
+
+    });
+    for(var i = 0; i < this.categories2.length;i++){
+      this.keys[Object.keys(this.categories2[i]).toString()] = Object.values(this.categories2[i]);
+      this.length.push(i);
+    }
+    console.log(this.keys);
+   })
+   console.log(this.categories2);
   }
 
   onFileSelected(event) {
     this.selectedFile = event.target.files[0];
+  }
+
+  onCategorySelected(event){
+      this.selectedCategory = this.model.category.split("/",2);
+      console.log(document.getElementById("name2"));
   }
 
   languages = ['Swedish', 'English', 'Arabic', 'Spanish', 'French', 'German'];
@@ -54,7 +87,7 @@ export class StoreUIComponent implements OnInit {
       formData.append("language", this.model.language);
 
     formData.append("fileUrl", this.selectedFile, this.selectedFile.name);
-
+    console.log(formData);
     this.storeService.uploadFormData(formData).subscribe(data => {
         this.successMessage = data.body.message;
         //setTimeout(function(){ form.resetForm(); }, 500);

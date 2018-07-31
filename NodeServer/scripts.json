@@ -7,5 +7,36 @@
 		],
 		"audio": [],
 		"subs": []
+	},
+	"asd": {
+		"video": [
+			"..\\Video\\intro1.mp4",
+			"..\\Video\\example1.mp4",
+			"..\\Video\\outro1.MP4"
+		],
+		"audio": [],
+		"subs": []
+	},
+	"CitadonNoAudio": {
+		"video": [
+			"..\\Video\\Intro.mp4",
+			"..\\Video\\TransitionWhat.mp4",
+			"..\\Video\\PillCan.mp4",
+			"..\\Video\\TransitionHowNot.mp4",
+			"..\\Video\\Not Example.mp4"
+		],
+		"audio": [],
+		"subs": []
+	},
+	"CitadonAudio": {
+		"video": [
+			"..\\Video\\Intro.mp4",
+			"..\\Video\\TransitionWhat.mp4",
+			"..\\Video\\PillCan.mp4",
+			"..\\Video\\TransitionHowNot.mp4",
+			"..\\Video\\Not Example.mp4"
+		],
+		"audio": [{ "2": "..\\Audio\\PillCan.m4a"}],
+		"subs": [{ "2": "..//Subtitle//PillCan.srt"}]
 	}
 }

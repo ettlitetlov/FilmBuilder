@@ -1,0 +1,4648 @@
+[
+	{
+		"Dosage": "Dosage.amount",
+		"__EMPTY_5": "Dosage.unit",
+		"Normal Taking period": "Amount",
+		"__EMPTY_6": "Frequency",
+		"Adult Dosage": "Normal Dosage",
+		"__EMPTY_11": "Maximum Dosage",
+		"Childeren Dosage": "Children",
+		"Interaction": "Food",
+		"__EMPTY_27": "Drug",
+		"Side effects": "Usual",
+		"__EMPTY_29": "Dangerious",
+		"Cautions": "Kidney disease",
+		"__EMPTY_32": "Liver insufficiency",
+		"__EMPTY_33": "Childhood",
+		"__EMPTY_34": "Elderly",
+		"__EMPTY_35": "Gender",
+		"__EMPTY_36": "Pregnancy",
+		"__EMPTY_37": "Lactation",
+		"__EMPTY_38": "Traffic"
+	},
+	{
+		"__EMPTY": "When to take",
+		"__EMPTY_4": "Time limitation",
+		"Adult Dosage": "Amount",
+		"__EMPTY_8": "Frequency",
+		"Childeren Dosage": "Rejected Condition",
+		"__EMPTY_18": "Acceptance Condition"
+	},
+	{
+		"__EMPTY": "Amount",
+		"__EMPTY_1": "Time",
+		"__EMPTY_2": "Conditional",
+		"__EMPTY_3": "Action",
+		"Childeren Dosage": "If Age is …",
+		"__EMPTY_14": "Consitional",
+		"__EMPTY_15": "weight is …",
+		"__EMPTY_16": "Consitional",
+		"__EMPTY_17": "Action",
+		"__EMPTY_18": "If Age is …",
+		"__EMPTY_19": "Consitional",
+		"__EMPTY_20": "weight is …",
+		"__EMPTY_21": "Consitional",
+		"__EMPTY_22": "Amount",
+		"__EMPTY_24": "Frequency"
+	},
+	{
+		"Läkemedel": "Aspirin, 500 mg dragerad tablett",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Strip, 20 tabletter",
+		"trade mark": "Aspirin",
+		"Active substance": "Acetylsalicylic acid",
+		"group": "For pain, For Fever, For blood thining ",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: swallowed by mouth as a tablet, capsule, lozenge, or liquid",
+		"Dosage": 500,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": "1, 2",
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 8,
+		"__EMPTY_10": "hours",
+		"Mechanism of action": "pain relief",
+		"Your feeling after taking the drug": "Avoid concomitant use with ",
+		"Interaction": "ibuprofen",
+		"What to do abput side effects?": "Daily use for long time slightly increases your risk of developing ",
+		"__EMPTY_30": "a stomach ulcer",
+		"__EMPTY_31": "There is a risk for development of resistance against your antibiotic if you forget to take that.",
+		"what to do about the side effect": "Just continue taking the medicine as planned. Don't double the next dose."
+	},
+	{
+		"Läkemedel": "Aspirin, 500 mg granulat",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Dospåsar, 20 st",
+		"trade mark": "Aspirin",
+		"Active substance": "Acetylsalicylic acid",
+		"group": "For pain, For Fever, For blood thining ",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: swallowed by mouth as a tablet, capsule, lozenge, or liquid",
+		"Dosage": 500,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": "1, 2",
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 8,
+		"__EMPTY_10": "hours",
+		"Mechanism of action": "pain relief",
+		"Your feeling after taking the drug": "Avoid concomitant use with ",
+		"Interaction": "ibuprofen",
+		"What to do abput side effects?": "Daily use for long time slightly increases your risk of developing ",
+		"__EMPTY_30": "a stomach ulcer",
+		"__EMPTY_31": "There is a risk for development of resistance against your antibiotic if you forget to take that.",
+		"what to do about the side effect": "Just continue taking the medicine as planned. Don't double the next dose."
+	},
+	{
+		"Läkemedel": "Aspirin, 500 mg tablett",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 20 tabletter",
+		"trade mark": "Aspirin",
+		"Active substance": "Acetylsalicylic acid",
+		"group": "For pain, For Fever, For blood thining ",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: swallowed by mouth as a tablet, capsule, lozenge, or liquid",
+		"Dosage": 500,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": "1, 2",
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 8,
+		"__EMPTY_10": "hours",
+		"Mechanism of action": "pain relief",
+		"Your feeling after taking the drug": "Avoid concomitant use with ",
+		"Interaction": "ibuprofen",
+		"What to do abput side effects?": "Daily use for long time slightly increases your risk of developing ",
+		"__EMPTY_30": "a stomach ulcer",
+		"__EMPTY_31": "There is a risk for development of resistance against your antibiotic if you forget to take that.",
+		"what to do about the side effect": "Just continue taking the medicine as planned. Don't double the next dose."
+	},
+	{
+		"Läkemedel": "Fludent Banan, 0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tabl.",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fludent Citron, 0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tabletter",
+		"Figure": "(white to off-white, round tablet labeled NaF on one side. Lemon flavor.)",
+		"trade mark": "Fludent",
+		"Active substance": "sodium fluoride",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "orally dissolving tablet",
+		"Administration method": "Place the tablet on your tongue. Leave it there for a few seconds to allow it to dissolve, and then swallow.",
+		"Dosage": 0.25,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and younger",
+		"__EMPTY_24": "Only according to the recommendation of dentists / doctors or dental hygienists.",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Fludent Hallon, 0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tabletter",
+		"Figure": "White to light red, round tablet, labeled \"NaF\" on one side and on the other side without labeling.",
+		"trade mark": "Fludent",
+		"Active substance": "sodium fluoride",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "orally dissolving tablet",
+		"Administration method": "Place the tablet on your tongue. Leave it there for a few seconds to allow it to dissolve, and then swallow.",
+		"Dosage": 0.25,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and younger",
+		"__EMPTY_24": "Only according to the recommendation of dentists / doctors or dental hygienists.",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Fludent Lakrits, 0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tabletter",
+		"Figure": "White to bone white, round tablet, labeled \"NaF\" on one side and on the other side without labeling.",
+		"trade mark": "Fludent",
+		"Active substance": "sodium fluoride",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "orally dissolving tablet",
+		"Administration method": "Place the tablet on your tongue. Leave it there for a few seconds to allow it to dissolve, and then swallow.",
+		"Dosage": 0.25,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and younger",
+		"__EMPTY_24": "Only according to the recommendation of dentists / doctors or dental hygienists.",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Fludent Mint, 0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tabl.",
+		"Figure": "White, round tablet, labeled \"NaF\" on one side and on the other side without labeling",
+		"trade mark": "Fludent",
+		"Active substance": "sodium fluoride",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "orally dissolving tablet",
+		"Administration method": "Place the tablet on your tongue. Leave it there for a few seconds to allow it to dissolve, and then swallow.",
+		"Dosage": 0.25,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and younger",
+		"__EMPTY_24": "Only according to the recommendation of dentists / doctors or dental hygienists.",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Fluorette Mint, 0,25 mg medicinskt tuggummi",
+		"MAH": "Fertin Pharma A/S,",
+		"Ombud": "Meda AB",
+		"Förpackningsbeskrivning": "Blister, 36 tuggummin",
+		"Figure": "Medical chewing gum 0.25 mg (mint flavor)",
+		"trade mark": "Fluorette",
+		"Active substance": "sodium fluoride",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "Medical chewing gum",
+		"Administration method": "chew like normal chewing gum",
+		"Dosage": 0.25,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "Chewing gum",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 7,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and younger",
+		"__EMPTY_22": 3,
+		"__EMPTY_23": "Medical chewing gum",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Xerodent, 28,6 mg-0,25 mg sugtablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastburk, 90 tabletter",
+		"Figure": "white, round, curved tablets, diameter 10 mm)",
+		"trade mark": "Xerodent",
+		"Active substance": "sodium fluoride, malic acid",
+		"group": "Preventing tooth decay",
+		"OTC or Prescribed": "OTC",
+		"From": "orally dissolving tablet",
+		"Administration method": "Place the tablet on your tongue. Leave it there for a few seconds to allow it to dissolve, and then swallow.",
+		"Dosage": "28,6/0,25",
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_17": "Not Recommended",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Novalucol tuggtablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 100 tabl",
+		"Figure": "white, flat, labeled A / NL, 14 mm, peppermint flavor)",
+		"trade mark": "Novalucol",
+		"Active substance": "calcium carbonate, Magnesium hydroxide",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_17": "Not Recommended",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Novaluzid tuggtablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 100 tabl",
+		"Figure": "white, flat, labeled A / NL, 14 mm, peppermint flavor)",
+		"trade mark": "Novalucol",
+		"Active substance": "calcium carbonate, Magnesium hydroxide",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_17": "Not Recommended",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Rennie, 680 mg-80 mg tuggtablett",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 96 tabl",
+		"Figure": "white, flat, square, embossed RENNIE on both sides, peppermint flavor)",
+		"trade mark": "Rennie",
+		"Active substance": "calcium carbonate, Magnesium hydroxide",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"Dosage": "680/80",
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "When neccessary",
+		"__EMPTY_11": 16,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"__EMPTY_17": "Not Recommended",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Inside, 150 mg filmdragerad tablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"Figure": "white, round, biconvex tablet with wrinkles, diameter about 9.5 mm)",
+		"trade mark": "Inside",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "Take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "when neccessary",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_21": 1,
+		"__EMPTY_23": "Tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Inside Brus, 150 mg brustablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Rör, 20 (2 x 10) tabletter",
+		"Figure": "(light yellow, round breast tablet with mid-nut, fruit flavor)",
+		"trade mark": "Inside",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Effervescent tablet",
+		"Administration method": "The tablet should be placed in at least half a glass of water (about 75 mL). Allow the tablet to dissolve before you drink the liquid.",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "When neccessary",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "Tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Rani-Q, 150 mg filmdragerad tablett",
+		"MAH": "Mylan AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 st.",
+		"Figure": "(round, biconvex, white to beige, film-coated, marked 00/30 on one side and G on the other)",
+		"trade mark": "Rani-Q",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "Tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "Tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Ranitidin ABECE, 150 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"Figure": "White to almost white, round, biconvex, film-coated tablet with \"R\" on one side and \"150\" on the other and with a diameter of 10 mm.",
+		"trade mark": "Ranitidin ABECE",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "Take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "The treatment period for this medication is 4 weeks.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_21": 2,
+		"__EMPTY_23": "Tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Ranitidin Actavis, 150 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"Figure": "(yellow-white, round, biconvex, one-sided score, 10 mm)",
+		"trade mark": "Actavis",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Ranitidin Apofri, 150 mg brustablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"Figure": "White to leg-white, round, flat-panel with faceted edge with approximately 25 mm diameter, and smooth surface on both the sides as well as a slight scent of peppermint.",
+		"trade mark": "Apofri",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Effervescent tablet",
+		"Administration method": "The tablet should be placed in at least half a glass of water (about 75 mL). Allow the tablet to dissolve before you drink the liquid.",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "The treatment period for this medication is 4 weeks.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Ranitidin Apofri, 150 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"Figure": "(White to almost white, round, biconvex, film-coated tablet with \"R\" and \"150\" on one side and with a diameter of 10 mm.)",
+		"trade mark": "Apofri",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Ranitidin Sandoz, 150 mg brustablett",
+		"MAH": "Sandoz GmbH",
+		"Ombud": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Rör, 20 tabl",
+		"Figure": "Gul-vit till ljusgula cylinderformade tabletter med avfasade kanter.",
+		"trade mark": "Sandoz",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Effervescent tablet",
+		"Administration method": "The tablet should be placed in at least half a glass of water (about 75 mL). Allow the tablet to dissolve before you drink the liquid.",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 6,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 3,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 3,
+		"__EMPTY_19": "and older",
+		"__EMPTY_20": 30,
+		"__EMPTY_21": "and more",
+		"__EMPTY_22": 2,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Ranitidin Sandoz, 150 mg filmdragerad tablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Blister, 30 st",
+		"Figure": "(yellow, round, biconvex, film-coated tablet with one-sided breaker, Ø 9 mm)",
+		"trade mark": "Sandoz",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": "30-60",
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Stomacid, 150 mg brustablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Plaströr, 2 tabletter",
+		"Figure": "(gul-vit till ljusgul cylinderformad med avfasade kanter)",
+		"trade mark": "Stomacid",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Effervescent tablet",
+		"Administration method": "The tablet should be placed in at least half a glass of water (about 75 mL). Allow the tablet to dissolve before you drink the liquid.",
+		"__EMPTY_2": "Before or after",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "Tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Zantac, 150 mg tablett",
+		"MAH": "GlaxoSmithKline AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 10 tabletter",
+		"Figure": "white, biconvex, 9.4 mm, embossed GX EC2 on one side)",
+		"trade mark": "Zantac",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "oral: take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_20": 30,
+		"__EMPTY_21": "and more",
+		"__EMPTY_22": 2,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Zantac Brus, 150 mg brustablett",
+		"MAH": "GlaxoSmithKline AB",
+		"Förpackningsbeskrivning": "Rör, 30 brustabletter (2x15)",
+		"Figure": "(light yellow, round 20 mm, grapefruit / orange flavor)",
+		"trade mark": "Zantac ",
+		"Active substance": "ranitidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Effervescent tablet",
+		"Administration method": "The tablet should be placed in at least half a glass of water (about 75 mL). Allow the tablet to dissolve before you drink the liquid.",
+		"__EMPTY_2": "Before or after",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 150,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "Tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Pepcid, 10 mg tablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 6 tabletter",
+		"Figure": "pink, rounded square, marked FA 10)",
+		"trade mark": "Pepcid",
+		"Active substance": "famotidine",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "Take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY": 30,
+		"__EMPTY_1": "Minutes",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "Eating food or drinking beverages",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 10,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Pepcid Duo tuggtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"Figure": "pink, round, flat marked P)",
+		"trade mark": "Pepcid Duo",
+		"Active substance": "famotidine, calcium carbonate, Magnesium hydroxide",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 2,
+		"__EMPTY_12": "tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 16,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 16,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Losec, 10 mg enterotablett",
+		"MAH": "AstraZeneca AB",
+		"Förpackningsbeskrivning": "Blister, 14 tabletter",
+		"Figure": "light pink, 6.5 × 12 mm, biconvex, film-coated tablets, labeled with LOSEC symbol on one side and 10 mG on the other)",
+		"trade mark": "Losec",
+		"Active substance": "omeprazole",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "Take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY_1": "In the morning",
+		"__EMPTY_2": "Before or after",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 10,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "management or monitoring precaution",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 2,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Losec, 20 mg enterotablett",
+		"MAH": "AstraZeneca AB",
+		"Förpackningsbeskrivning": "Blister, 7 tabletter",
+		"Figure": "pink, 7 × 14 mm, biconvex, film-coated tablets, labeled with LOSEC symbol on one side and 20 mG on the other)",
+		"trade mark": "Losec",
+		"Active substance": "omeprazole",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Tablet",
+		"Administration method": "Take 1 tablet with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY_1": "In the morning",
+		"__EMPTY_2": "Before or after",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 14 days unless directed by your doctor.",
+		"Dosage": 20,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 1,
+		"__EMPTY_7": "Tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "management or monitoring precaution",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 1,
+		"__EMPTY_23": "tablet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Galieve, 500 mg/213 mg/325 mg oral suspension i dospåse",
+		"MAH": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Dospåse, 24 st",
+		"Figure": "An off-white suspension with taste and scent of peppermint.)",
+		"trade mark": "Galieve",
+		"Active substance": "alginic acid, calcium carbonate, Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "sachet",
+		"Administration method": "Disolve a meal in half or one glass of water and drink.  It is important to drink a lot of water or other liquid after.",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "food",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "sachet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "sachet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_22": 2,
+		"__EMPTY_23": "sachet",
+		"__EMPTY_24": "every",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Galieve Mint oral suspension",
+		"MAH": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Glasflaska, 600 ml (utan dosmått)",
+		"Figure": "An off-white suspension with aroma and taste of peppermint)",
+		"trade mark": "Galieve",
+		"Active substance": "alginic acid, calcium carbonate, Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Oral suspension ",
+		"Administration method": "Shake the bottle well before administering the medicine to “re-suspend” the drug particles.",
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 7 days unless directed by your doctor.",
+		"Dosage": "2-4",
+		"__EMPTY_5": "teaspoon",
+		"__EMPTY_6": "after meal",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "time",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_24": "Same as adults",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Galieve Mint oral suspension i dospåse",
+		"MAH": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Dospåse, 36 st",
+		"Figure": "En benvit suspension med doft och smak av pepparmint.",
+		"trade mark": "Galieve",
+		"Active substance": "alginic acid, calcium carbonate, Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "sachet",
+		"Administration method": "Disolve a meal in half or one glass of water and drink.  It is important to drink a lot of water or other liquid after.",
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 7 days unless directed by your doctor.",
+		"Dosage": 10,
+		"__EMPTY_5": "mg/ml",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 2,
+		"__EMPTY_7": "sachet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "sachet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_24": "Same as adults",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Galieve Peppermint tuggtablett",
+		"MAH": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Plastburk, 48 (2 x 24) tabletter",
+		"Figure": "Benvita, some spotted tablets. Embossing on one side - sword and circle, embossing on the other side - G250.)",
+		"trade mark": "Galieve",
+		"Active substance": "alginic acid, calcium carbonate, Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 7 days unless directed by your doctor.",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 4,
+		"__EMPTY_7": "chewable tablet",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 16,
+		"__EMPTY_12": "chewable tablet",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 12,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 12,
+		"__EMPTY_19": "and older",
+		"__EMPTY_24": "Same as adults",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 30 ° C."
+	},
+	{
+		"Läkemedel": "Gaviscon,  oral suspension",
+		"MAH": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Plastflaska, 200 ml",
+		"Figure": "Vit, gulaktig suspension.",
+		"trade mark": "Gaviscon",
+		"Active substance": "alginic acid, Aluminum oxide, hydrated calcium carbonate,Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "Oral suspension ",
+		"Administration method": "Shake the bottle well before administering the medicine to “re-suspend” the drug particles.",
+		"__EMPTY": 30,
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 8 weeks unless directed by your doctor.",
+		"Dosage": "2-4",
+		"__EMPTY_5": "teaspoon",
+		"__EMPTY_6": "after meal",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"How to Store": "Use before expiry date as indicated on the label and Do not store above 25 ° C."
+	},
+	{
+		"Läkemedel": "Gaviscon tuggtablett",
+		"MAH": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Blister, 120 tabletter",
+		"Figure": "Tuggtabletten är rund, plan, vit eller nästan vit, märkt ”Gaviscon” på den ena sidan. Diameter 17,5 mm.",
+		"trade mark": "Gaviscon",
+		"Active substance": "alginic acid, Aluminum oxide, hydrated calcium carbonate,Sodium Bicarbonate",
+		"group": " pain in the upper part of your stomach commonly known as acid reflux",
+		"OTC or Prescribed": "OTC",
+		"From": "chewable tablet",
+		"Administration method": "Put the tablet on your tongue and close your lips tightly around it and chew slowly",
+		"__EMPTY": 30,
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 8 weeks unless directed by your doctor.",
+		"Dosage": "1-3",
+		"__EMPTY_5": "chewable tablet",
+		"__EMPTY_6": "after meal",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Dimetikon Meda, 100 mg kapsel, mjuk",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 250 kaps",
+		"Figure": "gulaktiga, genomskinliga, ovala gelatinkapslar, ca 8,5 x 6 mm.",
+		"trade mark": "Dimetikon Meda",
+		"Active substance": "simethicone",
+		"group": "to relieve symptoms of extra gas in your stomach",
+		"OTC or Prescribed": "OTC",
+		"From": "Capsules",
+		"Administration method": "Take one with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"Dosage": 100,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "Capsules",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "Capsules",
+		"__EMPTY_13": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Dimetikon Meda, 200 mg kapsel, mjuk",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 250 kaps",
+		"Figure": "gulaktiga, genomskinliga, ovala gelatinkapslar, ca 10,5 x 7 mm.",
+		"trade mark": "Dimetikon Meda",
+		"Active substance": "simethicone",
+		"group": "to relieve symptoms of extra gas in your stomach",
+		"OTC or Prescribed": "OTC",
+		"From": "Capsules",
+		"Administration method": "Take one with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"Dosage": 200,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "Capsules",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "Capsules",
+		"__EMPTY_13": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Imogaze, 240 mg kapsel, mjuk",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 30 kapslar",
+		"Figure": "Äggformad genomskinlig mjuk kapsel.",
+		"trade mark": "Imogaze",
+		"Active substance": "simethicone",
+		"group": "to relieve symptoms of extra gas in your stomach",
+		"OTC or Prescribed": "OTC",
+		"From": "Capsules",
+		"Administration method": "Take one with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"__EMPTY_2": "After",
+		"__EMPTY_3": "food",
+		"__EMPTY_4": "Do not take it for more than 10 days unless directed by your doctor.",
+		"Dosage": "240",
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "after meal",
+		"__EMPTY_11": 3,
+		"__EMPTY_12": "Capsules",
+		"__EMPTY_13": "day",
+		"Childeren Dosage": 15,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "Not Recommended",
+		"__EMPTY_18": 15,
+		"__EMPTY_19": "and older",
+		"__EMPTY_24": "Same as adults",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Minifom, 100 mg/ml orala droppar, emulsion",
+		"MAH": "ACO Hud Nordic AB",
+		"Ombud": "Avia Pharma AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 100 ml",
+		"Figure": "Orala droppar, emulsion",
+		"trade mark": "Minifom",
+		"Active substance": "simethicone",
+		"group": "to relieve symptoms of extra gas in your stomach",
+		"OTC or Prescribed": "OTC",
+		"From": "Drops",
+		"Administration method": "Shake the bottle well before administering the medicine to “re-suspend” the drug particles.",
+		"__EMPTY_2": "Before",
+		"__EMPTY_3": "food",
+		"Dosage": 10,
+		"__EMPTY_5": "Drops",
+		"__EMPTY_6": "before meal",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_24": "This is a child medicine",
+		"How to Store": "Use before expiry date as indicated on the label and Store in refrigerator(2-8 ° C)."
+	},
+	{
+		"Läkemedel": "Minifom, 200 mg kapsel, mjuk",
+		"MAH": "ACO Hud Nordic AB",
+		"Ombud": "Avia Pharma AB,",
+		"Förpackningsbeskrivning": "Plastburk, 250 kapslar",
+		"Figure": "reddish brown, oval, 7 × 10 mm)",
+		"trade mark": "Minifom",
+		"Active substance": "simethicone",
+		"group": "to relieve symptoms of extra gas in your stomach",
+		"OTC or Prescribed": "OTC",
+		"From": "Capsules",
+		"Administration method": "Take one with a glass of water as needed, unless otherwise directed by your doctor. ",
+		"Dosage": 200,
+		"__EMPTY_5": "mg",
+		"__EMPTY_6": "when neccessary",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "Capsules",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"__EMPTY_11": 4,
+		"__EMPTY_12": "Capsules",
+		"__EMPTY_13": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Lunelax granulat",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 doser",
+		"Figure": "Light brown to brown powder, odorless or with a fragrance)",
+		"trade mark": "Lunelax",
+		"Active substance": "Plantago ovata (white seed seed), seed shell",
+		"group": "to normalize the bowel function in both hard and loose stools.",
+		"OTC or Prescribed": "OTC",
+		"From": "Granules",
+		"Administration method": "Take it with soft food, a small drink, or a spoonful of water.",
+		"__EMPTY": 1,
+		"__EMPTY_1": "In the morning",
+		"Dosage": "7,5",
+		"__EMPTY_5": "mg/ml",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 2,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "not recommended",
+		"__EMPTY_18": "2-6",
+		"__EMPTY_22": 0.5,
+		"__EMPTY_23": "dose",
+		"__EMPTY_24": "Two times",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Lunelax granulat i dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 100 st",
+		"Figure": "(Ljusbrunt till brunt pulver, luktlöst eller med svag doft)",
+		"trade mark": "Lunelax",
+		"Active substance": "Plantago ovata (white seed seed), seed shell",
+		"group": "to normalize the bowel function in both hard and loose stools.",
+		"OTC or Prescribed": "OTC",
+		"From": "sachet",
+		"Administration method": "Take it with soft food, a small drink, or a spoonful of water.",
+		"__EMPTY": 1,
+		"__EMPTY_1": "In the morning",
+		"Dosage": "7,5",
+		"__EMPTY_5": "mg/ml",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 2,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "not recommended",
+		"__EMPTY_18": "2-6",
+		"__EMPTY_22": 0.5,
+		"__EMPTY_23": "sachet",
+		"__EMPTY_24": "two times",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Lunelax pulver till oral suspension",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 doser",
+		"Figure": "Light brown powder with lemon flavor)",
+		"trade mark": "Lunelax",
+		"Active substance": "Plantago ovata (white seed seed), seed shell",
+		"group": "to normalize the bowel function in both hard and loose stools.",
+		"OTC or Prescribed": "OTC",
+		"From": "Powder",
+		"Administration method": "Disolve a meal in half or one glass of water and drink.  It is important to drink a lot of water or other liquid after.",
+		"__EMPTY": 1,
+		"__EMPTY_1": "In the morning",
+		"Dosage": "7,5",
+		"__EMPTY_5": "mg/ml",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 2,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "not recommended",
+		"__EMPTY_18": "2-6",
+		"__EMPTY_22": 0.5,
+		"__EMPTY_23": "dose",
+		"__EMPTY_24": "Two times",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Lunelax pulver till oral suspension, dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 100 st",
+		"Figure": "Light brown powder with lemon flavor)",
+		"trade mark": "Lunelax",
+		"Active substance": "Plantago ovata (white seed seed), seed shell",
+		"group": "to normalize the bowel function in both hard and loose stools.",
+		"OTC or Prescribed": "OTC",
+		"From": "sachet",
+		"Administration method": "Disolve a meal in half or one glass of water and drink.  It is important to drink a lot of water or other liquid after.",
+		"__EMPTY": 1,
+		"__EMPTY_1": "In the morning",
+		"Dosage": "7,5",
+		"__EMPTY_5": "mg/ml",
+		"Adult Dosage": 3,
+		"__EMPTY_7": "time",
+		"__EMPTY_8": "every",
+		"__EMPTY_9": 1,
+		"__EMPTY_10": "day",
+		"Childeren Dosage": 2,
+		"__EMPTY_14": "and younger",
+		"__EMPTY_17": "not recommended",
+		"__EMPTY_18": "2-6",
+		"__EMPTY_22": 0.5,
+		"__EMPTY_23": "sachet",
+		"__EMPTY_24": "two times",
+		"__EMPTY_25": 1,
+		"__EMPTY_26": "day",
+		"How to Store": "Use before expiry date as indicated on the label"
+	},
+	{
+		"Läkemedel": "Vi-Siblin, 610 mg/g granulat",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Påse, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vi-Siblin, 610 mg/g granulat i dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st (20 x 6 g)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vi-Siblin S, 880 mg/g granulat",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Påse, 450 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vi-Siblin S, 880 mg/g granulat i dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st (20 x 4 g)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Inolaxol granulat",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Plastflaska 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Inolaxol granulat i dospåse",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Dospåsar, 200 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Inolaxol oralt pulver",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 400 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Inolaxol oralt pulver i dospåse",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Dospåse, 100 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fiberform granulat",
+		"MAH": "Mimer Medical",
+		"Förpackningsbeskrivning": "Pappkartong, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fiberform, 3,5 g granulat i dospåse",
+		"MAH": "Mimer Medical",
+		"Förpackningsbeskrivning": "Dospåse, 100 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fiberform Mix granulat till oral lösning i dospåse",
+		"MAH": "Mimer Medical",
+		"Förpackningsbeskrivning": "Dospåse, 100 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Duphalac, 670 mg/ml oral lösning",
+		"MAH": "Mylan Healthcare B.,V",
+		"Ombud": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Plastdunk, 1 x 5000 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Duphalac Frukt, 667 mg/ml oral lösning",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Dospåsar, 20 x 15 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lactulose Arrow, 660 mg/ml oral lösning",
+		"MAH": "Arrow Generics Limited",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastflaska, 500 ml, med doseringskopp",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lactulose Fresenius, 670 mg/ml oral lösning",
+		"MAH": "Fresenius Kabi Austria GmbH",
+		"Ombud": "Wingfirm Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska (vit), 1000 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laktulos Apelsin Meda, 670 mg/ml oral lösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastflaska 200 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laktulos Meda oralt pulver",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 1000 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laktulos Meda, 10 g oralt pulver i dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laktulos Meda, 670 mg/ml oral lösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastflaska, 1000 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Importal Ex-Lax, 10 g oralt pulver i dospåse",
+		"MAH": "Aziende Chimiche Riunite Angelini Francesco A.C.R.A.F. S.p.A.",
+		"Ombud": "Navamedic Medtech AB",
+		"Förpackningsbeskrivning": "Dospåse, 16 x 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Casenlax, 10 g pulver till oral lösning i dospåse",
+		"MAH": "Casen Recordati, S.L.",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Forlax, 10 g pulver till oral lösning i dospåse",
+		"MAH": "2care4 ApS",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Omnilax, 10 g pulver till oral lösning i dospåse",
+		"MAH": "Pro Health Pharma Sweden AB",
+		"Förpackningsbeskrivning": "Dospåse, 4 stycken",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lacrofarm pulver till oral lösning i dospåse",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Dospåsar, 30 stycken",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laxido pulver till oral lösning",
+		"MAH": "Galen Ltd",
+		"Ombud": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Dospåse, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laxido Apelsin pulver till oral lösning",
+		"MAH": "Galen Ltd",
+		"Ombud": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Dospåse, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laximyl pulver till oral lösning",
+		"MAH": "Mylan AB",
+		"Förpackningsbeskrivning": "Dospåsar, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Laxiriva pulver till oral lösning i dospåse",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Dospåsar, 50 x 1 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Movicol oral lösning i dospåse",
+		"MAH": "Norgine BV",
+		"Förpackningsbeskrivning": "Dospåse, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Movicol pulver till oral lösning i dospåse",
+		"MAH": "Norgine BV",
+		"Förpackningsbeskrivning": "Dospåsar, 50 x 1 st.",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Movicol Apelsin koncentrat till oral lösning",
+		"MAH": "Norgine BV",
+		"Förpackningsbeskrivning": "Plastflaska, 500 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Movicol Choklad pulver till oral lösning i dospåse",
+		"MAH": "Norgine BV",
+		"Förpackningsbeskrivning": "Dospåsar, 30 x 1 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Movicol Neutral pulver till oral lösning i dospåse",
+		"MAH": "Norgine BV",
+		"Förpackningsbeskrivning": "Dospåsar, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Moxalole pulver till oral lösning i dospåse",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåse, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Omnicol pulver till oral lösning i dospåse",
+		"MAH": "Pro Health Pharma Sweden AB",
+		"Förpackningsbeskrivning": "Dospåse, 50 stycken",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Resulax, 8,5 g rektallösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plasttub, 8 x 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Klyx, 1mg/ml+250mg/ml rektallösning",
+		"MAH": "Ferring Läkemedel AB",
+		"Förpackningsbeskrivning": "Plastflaska, 100 x 120 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Microlax rektallösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tub 200 x 5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Relaxit suppositorium",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Blister, 20 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Carbo medicinalis, 250 mg tablett",
+		"MAH": "Abcur AB,",
+		"Förpackningsbeskrivning": "Plastburk, 75 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Carbomix granulat till oral suspension",
+		"MAH": "Cabot Norit Nederland B.V.",
+		"Ombud": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kolsuspension, 150 mg/ml oral suspension",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastflaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "D-vitamin Olja ACO, 80 IE/droppe orala droppar, lösning",
+		"MAH": "ACO Hud Nordic AB",
+		"Ombud": "Avia Pharma AB,",
+		"Förpackningsbeskrivning": "Glasflaska, 25 ml (850 droppar)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "D-vitamin Olja Unimedic, 80 IE/droppe orala droppar, lösning",
+		"MAH": "Unimedic AB",
+		"Ombud": "Unimedic Pharma AB",
+		"Förpackningsbeskrivning": "Flaska, 25 ml (850 droppar)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "D-vitamin Vatten ACO, 80 IE/droppe orala droppar, lösning",
+		"MAH": "ACO Hud Nordic AB",
+		"Ombud": "Avia Pharma AB,",
+		"Förpackningsbeskrivning": "Glasflaska, 25 ml (850 droppar)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Beviplex Comp filmdragerad tablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Beviplex forte,  filmdragerad tablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oralovite,  filmdragerad tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "C-vimin, 1 g brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plaströr 100 (4x25) tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "C-vimin apelsin, 1 g brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plaströr 25 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ido-C, 0,5 g tuggtablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 200 tuggtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ido-C, 1 g tuggtablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pyridoxin Meda, 40 mg tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Burk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "E-vimin, 100 mg kapsel, mjuk",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "plastburk, 250 mjuka kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lixir,  oral lösning",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Glasflaska, 500 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calcitugg, 1 g tuggtablett",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 50 x 1 tabl (endosförp)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calcitugg, 500 mg tuggtablett",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kalcidon, 250 mg tuggtablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kalcidon, 500 mg tuggtablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kalcipos, 500 mg filmdragerad tablett",
+		"MAH": "Recip AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calcium-Sandoz, 1000 mg brustablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Plaströr, 100 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calcium-Sandoz, 500 mg brustablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Plaströr, 20 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calcichew-D3 Mite Citron, 500 mg/200 IE tuggtablett",
+		"MAH": "Takeda AS",
+		"Ombud": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Plastburk, 120 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kalcipos-D mite, 500 mg/200 IE filmdragerad tablett",
+		"MAH": "Recip AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Magnesium Diasporal, 300 mg granulat till oral lösning",
+		"MAH": "Protina Pharmazeutische Gesellschaft mbH",
+		"Ombud": "Biosan AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Magnesium Meda, 120 mg tuggtablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cyklo-f, 500 mg filmdragerad tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Blister, 18 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Tranexamsyra Orifarm, 500 mg filmdragerad tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Venastat depotkapsel, hård",
+		"MAH": "Temmler Pharma GmbH",
+		"Förpackningsbeskrivning": "blister, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Xyloproct,  rektalsalva",
+		"MAH": "Aspen Pharma Trading Limited,",
+		"Ombud": "Aspen Nordic",
+		"Förpackningsbeskrivning": "Tub, 20 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Xyloproct,  suppositorium",
+		"MAH": "Aspen Pharma Trading Limited,",
+		"Ombud": "Aspen Nordic",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Scheriproct, 0,19 %/0,5 % rektalsalva",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Scheriproct, 1,3 mg/1 mg suppositorium",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Kartong, 12 st (med invändig aluminiumfolie)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alcosanal, 110 mg/g rektalsalva",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tub, 20 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hirudoid kräm",
+		"MAH": "STADA Arzneimittel AG",
+		"Ombud": "PharmaCoDane ApS",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Canesten, 1 % kräm",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Aluminiumtub, 20 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Daktar, 2 % kräm",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pevaryl, 1 % kräm",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 30 gram kräm",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pevaryl, 1 % puder",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plastburk, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fungoral, 20 mg/ml schampo",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plastflaska, 120 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ketoconazol Actavis, 20 mg/g schampo",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastflaska 60 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mycosporan, 1 % kräm",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Tub, 15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cortimyk, 20 mg/g + 10 mg/g kräm",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 20 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Daktacort, 20 mg/g + 10 mg/g kräm",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tub, 15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Funginix, 10 mg/g kräm",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lamisil, 1 % kräm",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Tub, 7,5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lamisil, 1 % kutan lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska, 30 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lamisil Dermgel, 1 % gel",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Tub, 15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lamisil Singeldos, 1 % kutan lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Aluminiumtub, 4 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Terbinafin Apofri, 10 mg/g kräm",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Tub, 7.5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Terbinafin Teva, 10 mg/g kräm",
+		"MAH": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Tub, 7,5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Terbinafine Dermapharm, 10 mg/g kräm",
+		"MAH": "Dermapharm AG",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Terbisil, 10 mg/g kräm",
+		"MAH": "STADA Arzneimittel AG",
+		"Ombud": "PharmaCoDane ApS",
+		"Förpackningsbeskrivning": "Tub, 7,5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Terbinafin ABECE, 10 mg/g kräm",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Silon salva",
+		"MAH": "Ayrton Saunders Ltd",
+		"Förpackningsbeskrivning": "Aluminiumtub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calmuril kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Pumpburk, 400 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Canoderm, 5 % kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk med pump, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Canoderm, 5 % kutan emulsion",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk med pump, 350 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Canoderm Lipid, 5 % kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk, 450 g (refillburk)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fenuril kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Refillburk, 400 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fenuril, 40 mg/g + 40 mg/g kutan emulsion",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastflaska, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Karbamid ACO, 50 mg/g kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Karbasal kräm",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plastburk med pump, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Salsyvase, 1 % salva",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Salsyvase, 2 % salva",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glycerol ACO, 200 mg/g kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plasttub, 210 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Locobase LPL, 200 mg/g+45 mg/g kräm",
+		"MAH": "LEO Pharma A/S",
+		"Ombud": "LEO Pharma AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Miniderm, 20 % kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Miniderm, 20 % kutan emulsion",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk med pump, 700 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Propyderm, 20 % kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk med pump, 700 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Propyless, 200 mg/g kutan emulsion",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Propysal, 20 % kutan emulsion",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plastflaska med pump, 500 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sensoderm, 20 % kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plasttub, 210 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Inotyol salva",
+		"MAH": "Mylan Medical SAS",
+		"Ombud": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Anti, 5 % kräm",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Pumpflaska, 2 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Contra, 5 % kräm",
+		"MAH": "Meda OTC AB",
+		"Förpackningsbeskrivning": "Pumpflaska, 2 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zovirax, 5 % kräm",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Pumpbehållare, 2 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vectatone, 1 % kräm",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Aluminiumtub, 2 g (utan applikatorer)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vectavir, 1 % kräm",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Aluminiumtub, 2 g (utan applikatorer)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Healip, 10 % kräm",
+		"MAH": "JensonR + Limited,",
+		"Förpackningsbeskrivning": "Tub, 1 x 15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ficortril, 1 % salva",
+		"MAH": "Pfizer AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hyderm, 1 % kräm",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Tub, 30 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hydrokortison Clean Chemical Sweden, 1 % kräm",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hydrokortison Clean Chemical Sweden, 1 % salva",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hydrokortison Trimb, 10 mg/g kräm",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hydrokortison Trimb, 10 mg/g salva",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mildison Lipid, 1 % kräm",
+		"MAH": "LEO Pharma A/S",
+		"Ombud": "LEO Pharma AB",
+		"Förpackningsbeskrivning": "Aluminiumtub, 15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fenuril-Hydrokortison kräm",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Plasttub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Microcid, 1 % kräm",
+		"MAH": "Bioglan AB",
+		"Förpackningsbeskrivning": "Plasttub, 25 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sterillium kutan lösning",
+		"MAH": "Bode Chemie GmbH",
+		"Ombud": "Bröderna Berner Handels AB, Division Berner Medical",
+		"Förpackningsbeskrivning": "Plastdunk, 5 l",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zipzoc Salvstrumpa salvstrumpa",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Påsar, 10 x 1 salvstrumpa",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Basiron AC, 10 % gel",
+		"MAH": "Galderma Nordic AB,",
+		"Förpackningsbeskrivning": "Plasttub, 40 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Basiron AC, 5 % gel",
+		"MAH": "Galderma Nordic AB,",
+		"Förpackningsbeskrivning": "Plasttub, 40 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Basiron AC Wash, 5 % gel",
+		"MAH": "Galderma Nordic AB,",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Selsun, 25 mg/ml schampo",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Plastflaska, 120 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Selukos, 2,5 % kutan suspension",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plastflaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sevorex schampo",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Plasttub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Minoxidil Orifarm, 20 mg/ml kutan lösning",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 2 x 60 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Recrea, 20 mg/ml kutan lösning",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 12 x 60 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Rogaine, 20 mg/ml kutan lösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 3 x 60 ml (för kvinnor)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Replens vaginalgel",
+		"MAH": "Medlite AS",
+		"Förpackningsbeskrivning": "Engångsapplikator, 10 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Klimadynon filmdragerad tablett",
+		"MAH": "BIONORICA SE",
+		"Ombud": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Blister, 90 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Remifemin tablett",
+		"MAH": "Schaper & Brümmer GmbH & Co KG",
+		"Ombud": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Blister, 200 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Frivelle, 1,5 mg tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Levodonna, 1,5 mg tablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Levonorgestrel ABECE, 1,5 mg tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Levonorgestrel Apofri, 1,5 mg tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Levonorgestrel STADA, 1,5 mg tablett",
+		"MAH": "STADA Arzneimittel AG",
+		"Ombud": "STADA Nordic ApS",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NorLevo, 1,5 mg tablett",
+		"MAH": "Laboratoire HRA Pharma,",
+		"Ombud": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Postinor, 1,5 mg tablett",
+		"MAH": "Gedeon Richter Plc",
+		"Ombud": "Gedeon Richter Nordics AB",
+		"Förpackningsbeskrivning": "Blister, 1 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "ellaOne, 30 mg tablett",
+		"MAH": "Laboratoire HRA Pharma,",
+		"Ombud": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Blister, 1 tablett (PD: Paranova Läkemedel AB)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ovesterin, 0,5 mg vagitorium",
+		"MAH": "Aspen Pharma Trading Limited,",
+		"Ombud": "Aspen Nordic",
+		"Förpackningsbeskrivning": "Blister, 30 vagitorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ovesterin, 1 mg/g vaginalkräm",
+		"MAH": "Aspen Pharma Trading Limited,",
+		"Ombud": "Aspen Nordic",
+		"Förpackningsbeskrivning": "Tub 1x15 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cernitol Novum filmdragerad tablett",
+		"MAH": "AB Cernelle",
+		"Förpackningsbeskrivning": "Plastburk, 300 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Curbisal kapsel, mjuk",
+		"MAH": "Pharbio Medical International AB",
+		"Ombud": "Orkla Care AB",
+		"Förpackningsbeskrivning": "Blister, 90 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Prosabal kapsel, mjuk",
+		"MAH": "NaturaMed Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sabamin kapsel, mjuk",
+		"MAH": "Svenska Bioforce AB",
+		"Förpackningsbeskrivning": "Burk, 90 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alindrin, 200 mg filmdragerad tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alindrin, 400 mg filmdragerad tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Flarin, 200 mg kapsel, mjuk",
+		"MAH": "Infirst Healthcare Limited",
+		"Förpackningsbeskrivning": "Blister, 30 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibumax, 200 mg filmdragerad tablett",
+		"MAH": "Vitabalans Oy",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"trade mark": "Ibuprofen, Ibumax",
+		"Active substance": "Ibuprofen",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibumax, 400 mg filmdragerad tablett",
+		"MAH": "Vitabalans Oy",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibumetin, 400 mg tablett",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen ABECE, 200 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 9 tabletter (PVC/Al)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen ABECE, 400 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter (PVC/Al)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Actavis, 200 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Actavis, 400 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 6 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Apofri, 20 mg/ml oral suspension",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Glasflaska, 150 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Apofri, 200 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter (PVC/Al/papper)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Apofri, 400 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter (PVC/Al/papper)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Banner, 400 mg kapsel, mjuk",
+		"MAH": "Patheon Softgels B.V.",
+		"Förpackningsbeskrivning": "Blister, 20 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Bril, 200 mg filmdragerad tablett",
+		"MAH": "Bristol Lab. Ltd.",
+		"Ombud": "Brown & Burk AB",
+		"Förpackningsbeskrivning": "Burk, 12 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Bril, 400 mg filmdragerad tablett",
+		"MAH": "Bristol Lab. Ltd.",
+		"Ombud": "Brown & Burk AB",
+		"Förpackningsbeskrivning": "Burk, 12 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen BrillPharma, 200 mg filmdragerad tablett",
+		"MAH": "Brillpharma Limited",
+		"Förpackningsbeskrivning": "Burk, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen BrillPharma, 400 mg filmdragerad tablett",
+		"MAH": "Brillpharma Limited",
+		"Förpackningsbeskrivning": "Burk, 28 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Farmalider, 20 mg/ml oral suspension",
+		"MAH": "Farmalider S.A.",
+		"Förpackningsbeskrivning": "Flaska, 150 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Farmalider, 40 mg/ml oral suspension",
+		"MAH": "Farmalider S.A.",
+		"Förpackningsbeskrivning": "Flaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Orifarm, 200 mg filmdragerad tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen Orifarm, 400 mg filmdragerad tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 20 x 1 tabletter (endos)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen ratiopharm, 200 mg filmdragerad tablett",
+		"MAH": "ratiopharm GmbH",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuprofen ratiopharm, 400 mg filmdragerad tablett",
+		"MAH": "ratiopharm GmbH",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibuzin, 400 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ifenin, 200 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ifenin, 400 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 125 mg suppositorium",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorer",
+		"trade mark": "Ipren",
+		"Active substance": "Ibuprofen",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 20 mg/ml oral suspension",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 150 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 200 mg filmdragerad tablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 400 mg filmdragerad tablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 60 mg suppositorium",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Iprensa, 400 mg kapsel, mjuk",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 20 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nurofen, 100 mg tuggkapsel",
+		"MAH": "Reckitt Benckiser Nordic A/S,",
+		"Förpackningsbeskrivning": "Blister, 32 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nurofen Apelsin, 40 mg/ml oral suspension",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Plastflaska, 50 ml med doseringsspruta",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nurofen Jordgubb, 40 mg/ml oral suspension",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Plastflaska, 50 ml med doseringsspruta",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alpoxen, 250 mg tablett",
+		"MAH": "Actavis Group hf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Eox, 220 mg filmdragerad tablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Blister, 12 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipaflex, 200 mg kapsel, mjuk",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 20 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Naproxen ABECE, 250 mg tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Naproxen Apofri, 250 mg tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Naproxen Bluefish, 250 mg tablett",
+		"MAH": "Bluefish Pharmaceuticals AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Naproxen Mylan, 250 mg tablett",
+		"MAH": "Mylan AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 20 x 1 tablett (endos)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Naproxen Orifarm, 250 mg tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pronaxen, 250 mg tablett",
+		"MAH": "Orion Corporation",
+		"Ombud": "Orion Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Artrox, 625 mg filmdragerad tablett",
+		"MAH": "Pfizer AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 60 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Comfora, 595 mg filmdragerad tablett",
+		"MAH": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Blister, 60 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Donacom, 1178 mg pulver till oral lösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Dospåsar, 30 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glucomed, 625 mg tablett",
+		"MAH": "Laboratoires Expanscience,",
+		"Ombud": "Vitaflo Scandinavia AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glucosamine Navamedic, 625 mg tablett",
+		"MAH": "Laboratoires Expanscience,",
+		"Förpackningsbeskrivning": "Burk, 60 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glucosine, 400 mg filmdragerad tablett",
+		"MAH": "Recip AB",
+		"Förpackningsbeskrivning": "Plastburk, 90 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glucosine, 625 mg filmdragerad tablett",
+		"MAH": "Recip AB",
+		"Förpackningsbeskrivning": "Plastburk, 90 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glufan, 625 mg filmdragerad tablett",
+		"MAH": "Laboratorios Farmacéuticos ROVI S.A.",
+		"Förpackningsbeskrivning": "Tryckförpackning, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glukosamin Apofri, 625 mg kapsel, hård",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 60 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Glukosamin Pharma Nord, 400 mg kapsel, hård",
+		"MAH": "Pharma Nord ApS,",
+		"Ombud": "Pharma Hus AB",
+		"Förpackningsbeskrivning": "Burk, 90 kapslar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "OsteoEze, 625 mg filmdragerad tablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 1 x 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Salonpas, 105 mg/31,5 mg medicinskt plåster",
+		"MAH": "Hisamitsu UK Limited,",
+		"Förpackningsbeskrivning": "Påse, 5 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ibumetin, 5 % gel",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ipren, 5 % gel",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diclofenac Orifarm, 11,6 mg/g gel",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklofenak ABECE, 11,6 mg/g gel",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklofenak ABECE, 23,2 mg/g gel",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklofenak Apofri, 11,6 mg/g gel",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklofenak Apofri, 23,2 mg/g gel",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Tub, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Eeze, 40 mg/g kutan spray, gel",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Spraybehållare, 25 gram",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Flector, 140 mg medicinskt plåster",
+		"MAH": "IBSA Farmaceutici Italia S.r.l.,",
+		"Förpackningsbeskrivning": "Påse, 14 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Voltaren, 11,6 mg/g gel",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Tub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Voltaren, 140 mg medicinskt plåster",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Påse, 2 x 1 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Voltaren, 23,2 mg/g gel",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Tub, 120 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Termo medicinskt plåster",
+		"MAH": "Beiersdorf AG",
+		"Ombud": "Beiersdorf AB,",
+		"Förpackningsbeskrivning": "Påse, 2 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Algesal, 100 mg/g salva",
+		"MAH": "BGP Products AB,",
+		"Förpackningsbeskrivning": "Aluminiumtub, 100 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Acetylsalicylsyra ABECE, 500 mg tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 4 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Acetylsalicylsyra Apofri, 500 mg tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 4 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Acetylsalicylsyra Ellem, 500 mg tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Albyl minor, 250 mg tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Burk, 50 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bamyl, 500 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plaströr, 25 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bamyl, 500 mg tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Magnecyl brus, 500 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Acetylsalicylsyra/Koffein Apofri, 500 mg/50 mg brustablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Rör, 10 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bamyl koffein, 500 mg/50 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Plaströr, 25 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bamyl koffein, 500 mg/50 mg tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Magnecyl-koffein brus, 500 mg/50 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Tiplo, 500 mg/50 mg brustablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Tiplo Citrus, 500 mg/50 mg brustablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Treo, 500 mg/50 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Treo citrus, 500 mg/50 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Treo Hallon, 500 mg/50 mg brustablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 1 g suppositorium",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 125 mg munsönderfallande tablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Blister, 12 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 125 mg suppositorium",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 24 mg/ml oral lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Glasflaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 250 mg munsönderfallande tablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Blister, 12 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 250 mg suppositorium",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 500 mg brustablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 500 mg munsönderfallande tablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Blister, 6 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 500 mg pulver till oral lösning i dospåse",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Dospåsar, 12 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 500 mg suppositorium",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Alvedon, 60 mg suppositorium",
+		"MAH": "GlaxoSmithKline Consumer Healthcare AB, c/o GSK Consumer Healthcare A/S",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 1 g suppositorium",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 125 mg suppositorium",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 24 mg/ml oral suspension",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Flaska, 60 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 250 mg suppositorium",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 500 mg pulver till oral lösning i dospåse",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Dospåsar, 12 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 500 mg suppositorium",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil, 60 mg suppositorium",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Panodil Brus, 500 mg brustablett",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Strip, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Paracetamol ABECE, 500 mg brustablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Rör 20 tabletter (utan kartong)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Paracetamol Apofri, 24 mg/ml oral lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Glasflaska, 100 ml (med doseringsspruta)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Paracetamol Apofri, 500 mg brustablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Rör 20 tabletter (utan kartong)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Paracetamol Evolan, 1 g suppositorium",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Strip, 10 suppositorier",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pinex Cappuccino, 500 mg granulat i dospåse",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pinex Jordgubb, 24 mg/ml oral lösning",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Glasflaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pinex Jordgubb, 250 mg granulat i dospåse",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Dospåse, 10 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Pinex Jordgubb, 500 mg granulat i dospåse",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Therimin Honung & Citron, 500 mg pulver till oral lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Dospåse, 10 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Therimin Skogsbär, 500 mg pulver till oral lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Dospåse, 10 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Baldrian-Dispert dragerad tablett",
+		"MAH": "VEMEDIA Manufacturing B.V.",
+		"Förpackningsbeskrivning": "Tryckförpackning, 200 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Baldrian-Dispert Forte, 125 mg dragerad tablett",
+		"MAH": "VEMEDIA Manufacturing B.V.",
+		"Ombud": "Abcur AB,",
+		"Förpackningsbeskrivning": "Blister, 200 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Dormiplant, 500 mg filmdragerad tablett",
+		"MAH": "Dr. Willmar Schwabe GmbH & Co KG",
+		"Ombud": "Pharma Hus AB",
+		"Förpackningsbeskrivning": "Blister, 80 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Neurol dragerad tablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Burk, 200 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Neurol forte dragerad tablett",
+		"MAH": "Abigo Medical AB",
+		"Förpackningsbeskrivning": "Blister, 80 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sefitude dragerad tablett",
+		"MAH": "Florealis ehf.",
+		"Förpackningsbeskrivning": "Blister, 60 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Valerina Forte filmdragerad tablett",
+		"MAH": "Pharbio Medical International AB",
+		"Ombud": "Orkla Care AB",
+		"Förpackningsbeskrivning": "Blister, 80 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Betamint, 1 mg komprimerad sugtablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 36 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Betamint, 2 mg komprimerad sugtablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 36 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicopass Lakritsmint, 1,5 mg sugtablett",
+		"MAH": "Pierre Fabre Medicament",
+		"Ombud": "Pierre Fabre Pharma Norden AB",
+		"Förpackningsbeskrivning": "Blister, 24 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicopass Lakritsmint, 2,5 mg sugtablett",
+		"MAH": "Pierre Fabre Medicament",
+		"Ombud": "Pierre Fabre Pharma Norden AB",
+		"Förpackningsbeskrivning": "Blister, 24 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicopass Mint, 1,5 mg sugtablett",
+		"MAH": "Pierre Fabre Medicament",
+		"Ombud": "Pierre Fabre Pharma Norden AB",
+		"Förpackningsbeskrivning": "Blister, 12 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicopass Mint, 2,5 mg sugtablett",
+		"MAH": "Pierre Fabre Medicament",
+		"Ombud": "Pierre Fabre Pharma Norden AB",
+		"Förpackningsbeskrivning": "Blister, 204 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette, 10 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 14 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette, 15 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 14 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette, 2 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette, 4 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette, 5 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 14 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Frukt, 2 mg komprimerad sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Burk, 160 (8 x 20) tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Frukt, 4 mg komprimerad sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Burk, 160 (8 x 20) tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Fruktmint, 1 mg/spray munhålespray, lösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Sprayflaska, 2 x 150 sprayningar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Fruktmint, 2 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 15 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Fruktmint, 4 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 15 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Inhalator, 10 mg inhalationsånga, vätska",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 18 nikotinpluggar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Mentolmint, 2 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Mentolmint, 4 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 12 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Microtab, 2 mg resoriblett, sublingual",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 105 resoribletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Microtab Lemon, 2 mg resoriblett, sublingual",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 150 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Mint, 2 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 210 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Mint, 4 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 210 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Novum, 10 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 14 x 1 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Novum, 15 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 28 x 1 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Novum, 25 mg/16 timmar depotplåster",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Påse, 28 x 1 plåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Pepparmint, 1 mg/spray munhålespray, lösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 2x150 sprayningar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Pepparmint, 2 mg komprimerad sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter med etui",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Pepparmint, 2 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 10 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Pepparmint, 4 mg komprimerad sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter med etui",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicorette Pepparmint, 4 mg medicinskt tuggummi",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Blister, 210 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell, 14 mg/24 timmar depotplåster",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Påse, 21 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell, 21 mg/24 timmar depotplåster",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Påse, 21 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell, 7 mg/24 timmar depotplåster",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Påse, 21 x 1 depotplåster",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Fruit, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Fruit, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Lakrits, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 204 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Lakrits, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 204 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Mint, 1 mg komprimerad sugtablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 144 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Mint, 2 mg komprimerad sugtablett",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 204 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Mint, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Mint, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Peppermint, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 48 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Peppermint, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Spearmint, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 12 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Spearmint, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Tropisk frukt, 2 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 24 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicotinell Tropisk frukt, 4 mg medicinskt tuggummi",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Blister, 12 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicovel Frukt, 2 mg medicinskt tuggummi",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 10 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicovel Frukt, 4 mg medicinskt tuggummi",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 90 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicovel Mint, 2 mg medicinskt tuggummi",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 120 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicovel Mint, 4 mg medicinskt tuggummi",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nicovel Mint, 4 mg munhålepulver i portionspåse",
+		"MAH": "Orifarm Generics A/S, c/o Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Burk, 20 portionspåsar (i aluminiumpåse)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikorono Frukt, 2 mg medicinskt tuggummi",
+		"MAH": "Alkalon A/S",
+		"Förpackningsbeskrivning": "Blister, 2 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikorono Frukt, 4 mg medicinskt tuggummi",
+		"MAH": "Alkalon A/S",
+		"Förpackningsbeskrivning": "Blister, 2 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikorono Mint, 2 mg medicinskt tuggummi",
+		"MAH": "Alkalon A/S",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikorono Mint, 4 mg medicinskt tuggummi",
+		"MAH": "Alkalon A/S",
+		"Förpackningsbeskrivning": "Blister, 2 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin frukt ABECE, 2 mg medicinskt tuggummi",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 204 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin frukt ABECE, 4 mg medicinskt tuggummi",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin Frukt Apofri, 2 mg medicinskt tuggummi",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin Frukt Apofri, 4 mg medicinskt tuggummi",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 10 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin mint ABECE, 2 mg medicinskt tuggummi",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin mint ABECE, 4 mg medicinskt tuggummi",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 210 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin Mint Apofri, 2 mg medicinskt tuggummi",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 30 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nikotin Mint Apofri, 4 mg medicinskt tuggummi",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 10 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin, 1,5 mg komprimerad sugtablett",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 (3 x 20) sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin, 14 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 7 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin, 21 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 14 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin, 4 mg komprimerad sugtablett",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plastburk, 60 (3 x 20) sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin, 7 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 7 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Clear, 14 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 14 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Clear, 21 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 42 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Clear, 7 mg/24 timmar depotplåster",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plåster, 14 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Mentolmint, 2 mg medicinskt tuggummi",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 10 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Mentolmint, 4 mg medicinskt tuggummi",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 10 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Mint, 2 mg sugtablett",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 72 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Mint, 2,5 mg munsönderfallande film",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Dospåsar, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Mint, 4 mg sugtablett",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 72 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Tropisk frukt, 2 mg medicinskt tuggummi",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 4 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "NiQuitin Tropisk frukt, 4 mg medicinskt tuggummi",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Blister, 4 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 1,25 mg sugtablett",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Blister, 200 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 2 mg munhålepulver i portionspåse",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Burk, 20 portionspåsar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 2 mg sugtablett",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Blister, 144 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 2,5 mg sugtablett",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Blister, 200 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 4 mg munhålepulver i portionspåse",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Plastburk, 20 portionspåsar (burken med inre aluminiumfolie)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Mint, 4 mg sugtablett",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Blister, 144 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zonnic Pepparmint, 1 mg/spray munhålespray",
+		"MAH": "Niconovum AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 200 sprayningar",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vanquin, 50 mg dragerad tablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tryckförpackning, 32 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasin, 0,25 mg/ml nässpray, lösning",
+		"MAH": "Perrigo Sverige AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 7,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasin, 0,5 mg/ml nässpray, lösning",
+		"MAH": "Perrigo Sverige AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 7,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nezeril, 0,25 mg/ml näsdroppar, lösning i endosbehållare",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 2 x 10 x 0,1 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nezeril, 0,25 mg/ml nässpray, lösning",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump 7,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nezeril, 0,5  mg/ml näsdroppar, lösning i endosbehållare",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 2 x 10 x 0,1 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nezeril, 0,5 mg/ml nässpray, lösning",
+		"MAH": "Omega Pharma Nordic AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump 7,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oxidropz, 0,1 mg/ml näsdroppar, lösning i endosbehållare",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 20 st (2 x 10)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oxidropz, 0,25 mg/ml näsdroppar, lösning i endosbehållare",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 20 st (2 x 10)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oxidropz, 0,5 mg/ml näsdroppar, lösning i endosbehållare",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 20 st (2 x 10)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Molyx, 1 mg/ml nässpray, lösning",
+		"MAH": "Matrix Pharmaceuticals A/S",
+		"Förpackningsbeskrivning": "Flaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasoferm, 0,5 mg/ml nässpray, lösning",
+		"MAH": "ratiopharm GmbH",
+		"Ombud": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasoferm, 1 mg/ml nässpray, lösning",
+		"MAH": "ratiopharm GmbH",
+		"Ombud": "Nordic Drugs AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Olynth, 1 mg/ml nässpray, lösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrinex, 1 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrivin, 1 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrivin Menthol (utan konserveringsmedel), 1 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrivin utan konserveringsmedel, 0,5 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrivin utan konserveringsmedel, 1 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Teppix, 0,5 mg/ml nässpray, lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Teppix, 1 mg/ml nässpray, lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Teppzin, 1 mg/ml nässpray, lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Xylometazolin ABECE, 0,5 mg/ml nässpray, lösning",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Xylometazolin ABECE, 1 mg/ml nässpray, lösning",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Xylometazolin Matrix, 1 mg/ml nässpray, lösning",
+		"MAH": "Matrix Pharmaceuticals A/S",
+		"Förpackningsbeskrivning": "Flaska med dospump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zymelin, 0,5 mg/ml nässpray, lösning",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska med spraypump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zymelin, 1 mg/ml nässpray, lösning",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska med spraypump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zymelin Mentol, 1 mg/ml nässpray, lösning",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Flaska med spraypump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Otrivin Comp, 0,5 mg/ml + 0,6 mg/ml nässpray, lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "ZyComb, 0,5 mg/ml + 0,6 mg/ml nässpray, lösning",
+		"MAH": "Takeda Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska med doseringspump, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lomudal Nasal, 5,2 mg/dos nässpray, lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 100 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Livocab, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Orifarm AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 150 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Livostin, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 150 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Becotide Nasal, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "GlaxoSmithKline AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 100 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Desonix, 32 mikrogram/dos nässpray, suspension",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Glasflaska med spraypump, 120 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Livicort, 32 mikrogram/dos nässpray, suspension",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Glasflaska med spraypump, 120 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Flutide Nasal, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Flutikason Teva, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Glasflaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mometason ABECE, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Flaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mometason Apofri, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Flaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mometasone Teva, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mommox, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Flaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasonex, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Merck Sharp & Dohme BV",
+		"Ombud": "Merck Sharp & Dohme (Sweden) AB,",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 60  doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Orimox, 50 mikrogram/dos nässpray, suspension",
+		"MAH": "Orifarm Generics A/S,",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Flaska med dospump, 60 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nasacort, 55 mikrogram/dos nässpray, suspension",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Plastflaska med dospump, 30 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklorobensylalkohol/Amylmetakresol Honung & Citron ABECE sugtablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 24 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklorobensylalkohol/Amylmetakresol Jordgubb ABECE sugtablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 24 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Diklorobensylalkohol/Amylmetakresol Mint ABECE sugtablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 24 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Halzin Honung & Citron sugtablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Halzin Jordgubb sugtablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Halzin Mint sugtablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Apelsin sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Citron sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Blister, 26 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Honung & Citron sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 48 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Ingefära sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Plaströr, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Jordgubb sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 16 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Strepsils Mint sugtablett",
+		"MAH": "Reckitt Benckiser Healthcare International Ltd",
+		"Ombud": "Reckitt Benckiser Healthcare (Scandinavia) A/S,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Triolif Apelsin sugtablett",
+		"MAH": "Karo Pharma AS,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Triolif Honung & Citron sugtablett",
+		"MAH": "Karo Pharma AS,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Triolif Mint sugtablett",
+		"MAH": "Karo Pharma AS,",
+		"Förpackningsbeskrivning": "Blister, 24 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bafucin,  sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastburk, 25 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bafucin Mint,  sugtablett",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastburk, 100 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mucoangin Citron, 20 mg sugtablett",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Blister, 18 tabletter (Al)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mucoangin Mint, 20 mg sugtablett",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Blister, 18 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Coldyx citron, 3 mg sugtablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 10 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Coldyx honung-apelsin, 3 mg sugtablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 10 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zyx apelsin & honung, 3 mg sugtablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Paraffinerat papper, 20 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zyx citron, 3 mg sugtablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Paraffinerat papper, 20 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zyx eukalyptus, 3 mg sugtablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Paraffinerat papper, 20 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zyx mint, 3 mg sugtablett",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Paraffinerat papper, 20 sugtabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Echinacea Friggs brustablett",
+		"MAH": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Rör, 20 brustabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Echinagard oral lösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Flaska, 2 x 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Echinagard orala droppar, lösning",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Flaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Echinagard sugtablett",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Blister, 40 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Prospan oral lösning",
+		"MAH": "Engelhard Arzneimittel GmbH & Co KG",
+		"Ombud": "Medhouse AB",
+		"Förpackningsbeskrivning": "Flaska, 200 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Prospan oral lösning i endosbehållare",
+		"MAH": "Engelhard Arzneimittel GmbH & Co KG",
+		"Ombud": "Medhouse AB",
+		"Förpackningsbeskrivning": "Endosbehållare 5 ml, 21 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Nipenesin, 20 mg/ml sirap",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Flaska, 150 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Theracough, 20 mg/ml oral lösning",
+		"MAH": "GlaxoSmithKline Consumer Healthcare A/S,",
+		"Förpackningsbeskrivning": "Flaska, 200 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Quilla simplex oral lösning",
+		"MAH": "ACO Hud Nordic AB",
+		"Förpackningsbeskrivning": "Glasflaska, 200 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hedera Helix Sanofi sirap",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Flaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Mucohelix sirap",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Flaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon, 0,8 mg/ml oral lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Glasflaska, 125 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon, 1,6 mg/ml oral lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Flaska, 125 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon, 8 mg oral lösning i dospåse",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Dospåse, 20 st (20 x 5 ml)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon, 8 mg tablett",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon Citron, 8 mg löslig tablett",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Blister, 16 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bisolvon Jordgubb, 0,8 mg/ml oral lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Glasflaska, 125 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bromhex, 0,8 mg/ml oral lösning",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Glasflaska, 100 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bromhexin ABECE, 0,8 mg/ml oral lösning",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Flaska, 125 ml (glas)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bromhexin ABECE, 1,6 mg/ml oral lösning",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Flaska, 125 ml (glas)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bromhexin Apofri, 0,8 mg/ml oral lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Flaska, 125 ml (glas)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bromhexin Apofri, 1,6 mg/ml oral lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Flaska, 125 ml (glas)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sinova dragerad tablett",
+		"MAH": "BIONORICA SE",
+		"Förpackningsbeskrivning": "Blister, 200 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sinova forte dragerad tablett",
+		"MAH": "BIONORICA SE",
+		"Förpackningsbeskrivning": "Blister, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sinupret dragerad tablett",
+		"MAH": "BIONORICA SE",
+		"Ombud": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Blister, 200 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sinupret forte dragerad tablett",
+		"MAH": "BIONORICA SE",
+		"Ombud": "Midsona Sverige AB",
+		"Förpackningsbeskrivning": "Blister, 50 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vicks Vaporub salva",
+		"MAH": "Procter & Gamble Health & Beauty Care Ltd",
+		"Ombud": "Procter & Gamble Sverige AB",
+		"Förpackningsbeskrivning": "Burk, 50 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Calma, 20 mg medicinskt tuggummi",
+		"MAH": "Meda OTC AB,",
+		"Förpackningsbeskrivning": "Blister, 20 tuggummin",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Postafen, 25 mg tablett",
+		"MAH": "Gen.Orph SAS",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetimax, 10 mg filmdragerad tablett",
+		"MAH": "Vitabalans Oy",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin ABECE, 10 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin Apofri, 10 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 8 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin Bluefish, 10 mg filmdragerad tablett",
+		"MAH": "Bluefish Pharmaceuticals AB,",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin Mylan, 10 mg filmdragerad tablett",
+		"MAH": "Mylan AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin Sandoz, 10 mg filmdragerad tablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Blister, 30 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizin STADA, 10 mg filmdragerad tablett",
+		"MAH": "STADA Arzneimittel AG",
+		"Ombud": "PharmaCoDane ApS",
+		"Förpackningsbeskrivning": "Blister, 14 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cetirizine Teva, 10 mg filmdragerad tablett",
+		"MAH": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 28 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Vialerg, 10 mg filmdragerad tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zyrlex, 10 mg filmdragerad tablett",
+		"MAH": "MACURE PHARMA ApS",
+		"Förpackningsbeskrivning": "Blister, 21 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Clarityn, 1 mg/ml sirap",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Glasflaska, 120 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Clarityn, 10 mg tablett",
+		"MAH": "Bayer AB",
+		"Förpackningsbeskrivning": "Blister, 14 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin ABECE, 10 mg tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin Actavis, 10 mg tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "GxMed Nordic IVS",
+		"Förpackningsbeskrivning": "Tryckförpackning, 28 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin Apofri, 10 mg tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 14 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin HEXAL, 10 mg tablett",
+		"MAH": "Hexal A/S,",
+		"Förpackningsbeskrivning": "Blister, 10 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin Orifarm, 10 mg tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tablett",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin ratiopharm, 10 mg tablett",
+		"MAH": "ratiopharm GmbH",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Loratadin Sandoz, 10 mg munsönderfallande tablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Blister, 30x1 tabletter (endos)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ebastin ABECE, 10 mg munsönderfallande tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ebastin Apofri, 10 mg munsönderfallande tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ebastin Medreich, 10 mg munsönderfallande tablett",
+		"MAH": "Medreich Plc,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Ebastin Orifarm, 10 mg filmdragerad tablett",
+		"MAH": "Orifarm Generics A/S",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kestine, 10 mg filmdragerad tablett",
+		"MAH": "Almirall S.A.",
+		"Ombud": "Almirall ApS,",
+		"Förpackningsbeskrivning": "Tryckförpackning, 30 tabl",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Kestine, 10 mg frystorkad tablett",
+		"MAH": "Almirall S.A.",
+		"Ombud": "Almirall ApS,",
+		"Förpackningsbeskrivning": "Blister, 30 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Allegra, 120 mg filmdragerad tablett",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Blister, 10  tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fexofenadin ABECE, 120 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Fexofenadin Apofri, 120 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 10 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Desloratadin ABECE, 5 mg filmdragerad tablett",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Blister, 20 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Desloratadin Apofri, 5 mg filmdragerad tablett",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Blister, 5 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Desloratadine Sandoz, 5 mg filmdragerad tablett",
+		"MAH": "Sandoz A/S,",
+		"Förpackningsbeskrivning": "Blister, 30 x 1 tablett (endos, plast/Al)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Flynise, 5 mg filmdragerad tablett",
+		"MAH": "Actavis Group PTC ehf.",
+		"Ombud": "Teva Sweden AB",
+		"Förpackningsbeskrivning": "Blister, 2 tabletter",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Noviform, 5 % ögonsalva",
+		"MAH": "Meda AB",
+		"Förpackningsbeskrivning": "Tub, 5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Allgil, 20 mg/ml ögondroppar, lösning",
+		"MAH": "Apofri AB",
+		"Förpackningsbeskrivning": "Droppflaska, 3 x 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Crominet, 20 mg/ml ögondroppar, lösning",
+		"MAH": "Orifarm Generics A/S,",
+		"Ombud": "Orifarm Generics AB,",
+		"Förpackningsbeskrivning": "Flaska, 13,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lecrolyn, 20 mg/ml ögondroppar, lösning i endosbehållare",
+		"MAH": "Santen Oy",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lecrolyn, 40 mg/ml ögondroppar, lösning",
+		"MAH": "Santen Oy",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Droppflaska, 5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lecrolyn, 40 mg/ml ögondroppar, lösning i endosbehållare",
+		"MAH": "Santen Oy",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lecrolyn sine, 40 mg/ml ögondroppar, lösning",
+		"MAH": "Santen Oy,",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Droppbehållare, 3 x 5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lomudal, 20 mg/ml ögondroppar, lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Droppflaska, 13,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lomudal, 40 mg/ml ögondroppar, lösning i endosbehållare",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 60 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Natriumkromoglikat ABECE, 20 mg/ml ögondroppar, lösning",
+		"MAH": "Evolan Pharma AB",
+		"Förpackningsbeskrivning": "Droppflaska, 3 x 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Livostin, 0,5 mg/ml ögondroppar, suspension",
+		"MAH": "McNeil Sweden AB,",
+		"Förpackningsbeskrivning": "Plastflaska, 4 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Tilavist, 20 mg/ml ögondroppar, lösning",
+		"MAH": "Sanofi AB",
+		"Förpackningsbeskrivning": "Flaska, 5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zaditen, 0,25 mg/ml ögondroppar, lösning",
+		"MAH": "Laboratoires Théa",
+		"Förpackningsbeskrivning": "Plastflaska, 5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Zaditen, 0,25 mg/ml ögondroppar, lösning i endosbehållare",
+		"MAH": "Ebb Medical AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 60 x 0,4 ml (skyddspåse)",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Artelac ögondroppar, lösning",
+		"MAH": "Bausch & Lomb U.K., Ltd.",
+		"Ombud": "Bausch & Lomb Nordic AB",
+		"Förpackningsbeskrivning": "Plastflaska, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Artelac ögondroppar, lösning i endosbehållare",
+		"MAH": "Bausch & Lomb U.K., Ltd.",
+		"Ombud": "Bausch & Lomb Nordic AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 60 x 0,5 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Bion Tears ögondroppar, lösning",
+		"MAH": "Novartis Sverige AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 7 x 4 x 0,4 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Cellufluid ögondroppar, lösning i endosbehållare",
+		"MAH": "Allergan Pharmaceuticals Ireland",
+		"Ombud": "Allergan Norden AB,",
+		"Förpackningsbeskrivning": "Endosbehållare, 1 x 90 st",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Celluvisc ögondroppar, lösning i endosbehållare",
+		"MAH": "Allergan Pharmaceuticals Ireland",
+		"Ombud": "Allergan Norden AB,",
+		"Förpackningsbeskrivning": "Endospipetter, 30 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Hyprosan, 3,2 mg/ml ögondroppar, lösning",
+		"MAH": "Santen Oy,",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska, 3 x 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Lakrimont, 2 mg/g ögongel",
+		"MAH": "Blumont Pharma Ltd.,",
+		"Ombud": "Astimex pharma AB,",
+		"Förpackningsbeskrivning": "Tub, 3 x 10 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oculac, 50 mg/ml ögondroppar, lösning",
+		"MAH": "Laboratoires Théa",
+		"Förpackningsbeskrivning": "Plastflaska, 10 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oculac, 50 mg/ml ögondroppar, lösning i endosbehållare",
+		"MAH": "Laboratoires Théa",
+		"Förpackningsbeskrivning": "Endosbehållare, 120 x 0,4 ml",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oftagel, 2,5 mg/g ögongel",
+		"MAH": "Santen Oy",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Plastflaska, 3 x 10 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Oftagel, 2,5 mg/g ögongel i endosbehållare",
+		"MAH": "Santen Oy",
+		"Ombud": "Santen Pharma AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 120 x 0,5 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Sincon ögondroppar, lösning i endosbehållare",
+		"MAH": "Trimb Healthcare AB",
+		"Förpackningsbeskrivning": "Endosbehållare, 6 x 10 doser",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Viscotears, 2 mg/g ögongel",
+		"MAH": "Laboratoires Théa",
+		"Förpackningsbeskrivning": "Tub, 10 g",
+		"OTC or Prescribed": "OTC"
+	},
+	{
+		"Läkemedel": "Viscotears, 2 mg/g ögongel i endosbehållare",
+		"MAH": "Laboratoires Théa",
+		"Förpackningsbeskrivning": "Endosbehållare, 120 x 0,6 ml",
+		"OTC or Prescribed": "OTC"
+	}
+]
