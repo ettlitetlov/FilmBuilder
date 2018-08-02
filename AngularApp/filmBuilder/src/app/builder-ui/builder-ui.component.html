@@ -29,6 +29,26 @@
     </div>
 
     <div class="form-group">
+        <label for="Medication type">Medication Form</label>
+        <select class="form-control" id="Medication Form" required name="Medication Form">
+          <option value="Tablet">Tablet</option>
+          <option value="Capsules">Capsules</option>
+          <option value="Topical medicines">Topical medicines</option>
+          <option value="Suppositories">Suppositories</option>
+          <option value="Drops">Drops</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="dosage">Dosage</label>
+        <select class="form-control" id="dosage" required name="dose">
+          <option value="100mg">100mg</option>
+          <option value="200mg">200mg</option>
+          <option value="500mg">500mg</option>
+        </select>
+    </div>
+
+    <div class="form-group">
         <label for="language">Language</label>
         <select class="form-control" id="language" required [(ngModel)]="model.language" name="lang">
           <option *ngFor="let lang of languages " [value]="lang">{{lang}}</option>

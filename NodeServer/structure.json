@@ -58,8 +58,8 @@
 			}
 		},
 		{
-			"Category1": {
-				"leafCategory1": {
+			"What?": {
+				"Trademark": {
 					"Video": [
 						{
 							"name": "example1",
@@ -72,7 +72,7 @@
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory2": {
+				"Packaging": {
 					"Video": [
 						{
 							"name": "PillCan",
@@ -100,7 +100,7 @@
 						}
 					]
 				},
-				"leafCategory3": {
+				"Indication": {
 					"Video": [
 						{
 							"name": "Not Example",
@@ -119,8 +119,17 @@
 							"type": "Subtitles"
 						}
 					]
+				}
+			}
+		},
+		{
+			"How not": {
+				"Warnings & Cautions": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
 				},
-				"leafCategory4": {
+				"Special Conditions": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
@@ -128,23 +137,23 @@
 			}
 		},
 		{
-			"Category2": {
-				"leafCategory5": {
+			"How": {
+				"Form": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory6": {
+				"Dosing": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory7": {
+				"Administration Advice": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
 				},
-				"leafCategory8": {
+				"Missing a pill actions": {
 					"Video": [],
 					"Audio": [],
 					"Subtitles": []
@@ -152,10 +161,23 @@
 			}
 		},
 		{
-			"Category3": {}
-		},
-		{
-			"Category4": {}
+			"Effects": {
+				"Traffic": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"Side Effects": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				},
+				"What to do about Side Effects": {
+					"Video": [],
+					"Audio": [],
+					"Subtitles": []
+				}
+			}
 		}
 	]
 }

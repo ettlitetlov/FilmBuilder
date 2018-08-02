@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <ol>
+  <!--<ol>
     <h1>Build a new script</h1>
     <form (ngSubmit)="submitScript()" #scriptForm="ngForm">
     <mat-list>
@@ -26,6 +26,173 @@
   </form>
   <h5 id="statusMessage" *ngIf="submitted">{{responseMessage}}</h5>
   </ol>
+
+-->
+<mat-tab-group >
+  <mat-tab label="What">
+      <h1>What</h1>
+      <mat-grid-list cols="3" rowHeight="200px">
+          <mat-grid-tile>
+              <mat-form-field appearance="legacy">
+                  <input matInput placeholder="Trademark" value="">
+              </mat-form-field>
+
+          </mat-grid-tile>
+          <mat-grid-tile>
+              <mat-form-field>
+              <mat-select appearance="legacy" placeholder="Packaging" value="">
+                  <mat-option value="Pillbottle"> Pill bottle </mat-option>
+                  <mat-option value="Liquidbottle"> Liquid bottle </mat-option>
+                  <mat-option value="Tablets"> Tablets </mat-option>
+                  <mat-option value="Lozenge"> Lozenge </mat-option>
+              </mat-select>
+              </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile>
+              <mat-form-field appearance="legacy">
+                  <textarea matInput placeholder="Indications" value=""></textarea>
+              </mat-form-field>
+          </mat-grid-tile>
+      </mat-grid-list>
+  </mat-tab>
+  <mat-tab label="How Not">
+      <h1>How not</h1>
+      <mat-grid-list cols="2" rowHeight="300px">
+          <mat-grid-tile class="top-align">
+              <mat-list>
+                  <h2 mat-subheader>Warnings & Cautions</h2>
+                <mat-selection-list>
+                    <mat-list-option value="Alcohol"> Alcohol </mat-list-option>
+                    <mat-list-option value="Other active substances"> Other active substances </mat-list-option>
+                    <mat-list-option value="Smoking"> Smoking </mat-list-option>
+                </mat-selection-list>
+              </mat-list>
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+            <mat-list>
+              <h2 mat-subheader>Special Conditions</h2>
+              <mat-selection-list>
+                  <mat-list-option> Kidney Functions </mat-list-option>
+                  <mat-list-option> Child </mat-list-option>
+                  <mat-list-option> Elderly </mat-list-option>
+                  <mat-list-option> Pregnancy </mat-list-option>
+                  <mat-form-field appearance="legacy">
+                      <input matInput placeholder="Other" value="">
+                  </mat-form-field>
+              </mat-selection-list>
+            </mat-list>
+          </mat-grid-tile>
+      </mat-grid-list>
+  </mat-tab>
+  <mat-tab label="How">
+      <h1>How</h1>
+      <mat-grid-list cols="7" rowHeight="300px">
+          <mat-grid-tile class="top-align">
+              <mat-form-field>
+                  <mat-select appearance="legacy" placeholder="form" value="">
+                      <mat-option value="Swallow with water"> Tablet </mat-option>
+                      <mat-option value="Chew"> Capsules </mat-option>
+                      <mat-option value="Nasal"> Topical medicines </mat-option>
+                      <mat-option value="Dissolve in water"> Suppositories </mat-option>
+                      <mat-option value="Inject"> Drops </mat-option>
+                  </mat-select>
+                </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+                <mat-form-field appearance="legacy">
+                    <input matInput placeholder="Amount" value="">
+                </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+              <mat-form-field>
+                  <mat-select appearance="legacy" placeholder="Dosing" value="">
+                      <mat-option value="100mg"> 100mg </mat-option>
+                      <mat-option value="200mg"> 200mg </mat-option>
+                      <mat-option value="250mg"> 250mg </mat-option>
+                      <mat-option value="500mg"> 500mg </mat-option>
+                  </mat-select>
+                </mat-form-field>
+
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+              <mat-form-field>
+                  <mat-select appearance="legacy" placeholder="Taking period" value="">
+                      <mat-option value="Day"> Day </mat-option>
+                      <mat-option value="Week"> Week </mat-option>
+                      <mat-option value="Month"> Month </mat-option>
+                      <mat-option value="Year"> Year </mat-option>
+                  </mat-select>
+                </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+              <mat-form-field>
+                  <mat-select appearance="legacy" placeholder="Administrative method" value="">
+                      <mat-option value="Water"> With water </mat-option>
+                      <mat-option value="Dissolve"> Dissolve in water </mat-option>
+                      <mat-option value="Topical"> Topical </mat-option>
+                      <mat-option value="Chew"> chew like normal chewing gum
+                        </mat-option>
+                  </mat-select>
+                </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile class="top-align">
+              <mat-form-field appearance="legacy">
+                  <input matInput placeholder="Advice" value="">
+              </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile class="top-align">
+            <mat-form-field>
+                <mat-select appearance="legacy" placeholder="If missed" value="">
+                    <mat-option value="Continue"> Just continue taking the medicine as planned. Don't double the next dose.</mat-option>
+                    <mat-option value="asSoon"> Take your missed dose as soon as you remember. Don't double the next dose.</mat-option>
+                </mat-select>
+              </mat-form-field>
+      </mat-grid-tile>
+
+      </mat-grid-list>
+  </mat-tab>
+  <mat-tab label="Effects">
+      <h1>Effects</h1>
+      <mat-grid-list cols="3" rowHeight="300px">
+      <mat-grid-tile class="top-align">
+          <mat-form-field>
+              <mat-select appearance="legacy" placeholder="Traffic" value="">
+                  <mat-option value="Careful"> Be careful, in some patinets reactivity can decrease.</mat-option>
+                  <mat-option value="Dizz"> Dizziness and fatigue may occure. These should be taken into consideration when driving. </mat-option>
+                  <mat-option value="React">The ability to react may decrease in some patients.</mat-option>
+              </mat-select>
+            </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile class="top-align">
+          <mat-list>
+              <h2 mat-subheader>Side effects</h2>
+              <mat-selection-list>
+                  <mat-list-option> Anticholinergic effects
+                    </mat-list-option>
+                  <mat-list-option> Internal bleeding
+                    </mat-list-option>
+                  <mat-list-option> Nerves system effects
+                    </mat-list-option>
+                  <mat-list-option> Kidney effects
+                    </mat-list-option>
+              </mat-selection-list>
+            </mat-list>
+      </mat-grid-tile>
+      <mat-grid-tile class="top-align">
+          <mat-form-field>
+              <mat-select class="large" appearance="legacy" placeholder="What to do?" value="">
+                  <mat-option value="Careful"> In case of bleeding you must immediately seek help.
+                    </mat-option>
+                  <mat-option value="Dizz"> The mild and moderate side effects are usually temporary. 
+                    </mat-option>
+                  <mat-option value="React">Stop taking your medicine, contact your doctor
+                    </mat-option>
+              </mat-select>
+            </mat-form-field>
+      </mat-grid-tile>
+      </mat-grid-list>
+  </mat-tab>
+</mat-tab-group>
 
 
 </div>
