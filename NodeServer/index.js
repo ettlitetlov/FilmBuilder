@@ -285,25 +285,6 @@ app.get('/compose/types', (req,res,next) => {
     })
 })
 
-// Experimenting with excel data
-/*
-    var first_sheet_name = workbook.SheetNames[0];
-    var second_sheet_name = workbook.SheetNames[1];
-    var third_sheet_name = workbook.SheetNames[2];
-
-    var worksheet = workbook.Sheets[third_sheet_name];
-    var options = workbook.Sheets[second_sheet_name];
-
-// Write drop-down options to csv fi
-
-//console.log(XLSX.utils.sheet_to_json(worksheet));
-
-fs.writeFile('./headers.json', JSON.stringify(XLSX.utils.sheet_to_json(worksheet, {raw:true, range:'A1-BM7', header:'A'}), null, '\t'), (err) => {
-    if(err) throw err;
-})
-
-*/
-
 app.listen(8000, function() {
     console.log('App listening on port 8000!');
 })
